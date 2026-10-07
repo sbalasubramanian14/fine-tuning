@@ -1,0 +1,72 @@
+{
+  "model": {
+    "model_id": "Lykon/dreamshaper-8",
+    "revision": "a7e52b98680b1ba8ff7bce97c7f9f2e2e5337917",
+    "variant": "fp16",
+    "weight_mapping": {
+      "unet/diffusion_pytorch_model.fp16.safetensors": "unet/diffusion_pytorch_model.safetensors",
+      "vae/diffusion_pytorch_model.fp16.safetensors": "vae/diffusion_pytorch_model.safetensors",
+      "text_encoder/model.fp16.safetensors": "text_encoder/model.safetensors",
+      "safety_checker/model.fp16.safetensors": "safety_checker/model.safetensors"
+    },
+    "weight_sha256": {
+      "unet/diffusion_pytorch_model.safetensors": "ac0a7f112b9485d3e0c492fad89891ba82c60d7b09653bf5083b5a2b592828f3",
+      "vae/diffusion_pytorch_model.safetensors": "ff38c7ec66a4ae76f466a3ade876522bff4fea8add1981cc433f518666cea33d",
+      "text_encoder/model.safetensors": "fda1f312e49f667179f53878e6ac717d8f37d6119cc5adb76fba88895b94d0a7",
+      "safety_checker/model.safetensors": "57ecdfa243b170f9b4cb3eefaf0f64552ef78fc0bf0eb1c5b9675308447184f6"
+    },
+    "local_filename_note": "Pinned fp16 variant renamed to default filenames for sd-scripts compatibility; tensors unchanged."
+  },
+  "lora": null,
+  "scale": 0.8,
+  "seed": 42,
+  "prompts": [
+    "soraskychar, solo, 1girl, adult woman, short teal hair, amber eyes, cream jacket, red scarf, portrait, white background, anime illustration"
+  ],
+  "negative_prompt": "low quality, blurry, extra limbs, extra fingers, malformed hands, duplicate person, text, watermark",
+  "steps": 28,
+  "guidance_scale": 7.0,
+  "width": 512,
+  "height": 512,
+  "scheduler": "DEISMultistepScheduler",
+  "scheduler_config": {
+    "num_train_timesteps": 1000,
+    "beta_start": 0.00085,
+    "beta_end": 0.012,
+    "beta_schedule": "scaled_linear",
+    "trained_betas": null,
+    "solver_order": 2,
+    "prediction_type": "epsilon",
+    "thresholding": false,
+    "dynamic_thresholding_ratio": 0.995,
+    "sample_max_value": 1.0,
+    "algorithm_type": "deis",
+    "solver_type": "logrho",
+    "lower_order_final": true,
+    "use_karras_sigmas": false,
+    "use_exponential_sigmas": false,
+    "use_beta_sigmas": false,
+    "use_flow_sigmas": false,
+    "flow_shift": 1.0,
+    "timestep_spacing": "leading",
+    "steps_offset": 1,
+    "_use_default_values": [
+      "flow_shift",
+      "use_beta_sigmas",
+      "use_exponential_sigmas",
+      "use_flow_sigmas"
+    ],
+    "_class_name": "DEISMultistepScheduler",
+    "_diffusers_version": "0.21.0.dev0",
+    "clip_sample": false,
+    "set_alpha_to_one": false,
+    "skip_prk_steps": true
+  },
+  "images": [
+    {
+      "file": "01.png",
+      "nsfw_content_detected": false
+    }
+  ],
+  "wall_seconds": 7.17
+}

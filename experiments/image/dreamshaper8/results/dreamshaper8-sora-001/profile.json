@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "dreamshaper8-sora",
+  "type": "image",
+  "backend": "sd1_lora",
+  "model": {
+    "id": "Lykon/dreamshaper-8",
+    "revision": "a7e52b98680b1ba8ff7bce97c7f9f2e2e5337917",
+    "variant": "fp16",
+    "directory": "experiments/image/dreamshaper8/models/base"
+  },
+  "character_config": "configs/character.json",
+  "training_config": "configs/train.toml",
+  "dataset_config": "configs/dataset.toml",
+  "dataset": {
+    "train": "data/train",
+    "validation": "data/validation",
+    "min_train": 20,
+    "min_validation": 4
+  },
+  "artifact_root": "experiments/image/dreamshaper8/artifacts",
+  "cache_root": "experiments/image/dreamshaper8/cache",
+  "steps": 400,
+  "smoke_steps": 10,
+  "evaluation": {
+    "seed": 42,
+    "steps": 28,
+    "guidance_scale": 7.0,
+    "width": 512,
+    "height": 512,
+    "lora_scale": 0.8,
+    "checkpoints": [
+      100,
+      200,
+      300,
+      400
+    ],
+    "solo_prompt": "soraskychar, solo, 1girl, adult woman, short teal hair, amber eyes, cream jacket, red scarf, portrait, white background, anime illustration"
+  }
+}

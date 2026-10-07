@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "id": "waifu-diffusion-sora-preserved",
+  "type": "image",
+  "backend": "sd1_lora",
+  "mode": "legacy_reference",
+  "model": {"id": "hakurei/waifu-diffusion", "revision": "342d18da939534326d8571b7a8b5195f43800db6", "directory": "models/waifu-diffusion"},
+  "adapter": "outputs/sora-20261007-233343/sora.safetensors",
+  "adapter_sha256": "5cf41503ea4eef4057ebf113c3f8fedeefbe61224a082ce84261127e7f541004",
+  "training_run": "outputs/sora-20261007-233343",
+  "results": "docs/training-results.md",
+  "gallery": "docs/training-results.html",
+  "git_checkpoint": "0dbfe4d4fbafb204f68271bd92f7e430b529c418"
+}

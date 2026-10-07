@@ -1,5 +1,28 @@
 # Local anime character LoRA
 
+## Test interactively
+
+Run `.\studio\start.ps1` and open **http://127.0.0.1:7860**. Select DreamShaper 8
+or the preserved Waifu model, toggle **Use LoRA adapter**, or click
+**Compare base + LoRA** for a matched pair. Saved tests include downloadable PNGs and settings.
+See [Local Model Studio](studio/README.md) for controls, model/backend extensions
+and existing app alternatives (ComfyUI, LM Studio and Open WebUI).
+
+The UI currently generates images. Conversational text, voice and video require
+additional backends; their experiment folders are prepared for future work.
+
+## Experiments
+
+New model experiments live in [experiments/](experiments/README.md), with separate image, text, video, and audio/voice folders. The original Waifu Diffusion / Sora workflow below is preserved. DreamShaper 8 has its own pinned profile, model directory, latent cache, and training/evaluation artifacts:
+
+```powershell
+.\experiments\run.ps1 -RunName dreamshaper8-sora-001
+```
+
+The new runner requires the existing local environment. It currently implements SD1.x image LoRA; other modalities have extension documentation and require their own backends.
+
+DreamShaper's 400-step run completed successfully. See [its results](docs/dreamshaper8-results.md) and [comparison gallery](experiments/image/dreamshaper8/results/dreamshaper8-sora-001/comparison.html). The original experiment's files were verified unchanged against 221 preservation hashes.
+
 An SD 1.x character LoRA experiment for an NVIDIA RTX 4050 Laptop GPU with 6 GB VRAM, on Windows. The original character is **Sora**, an adult sky courier. Trigger: `soraskychar`.
 
 ## Current state

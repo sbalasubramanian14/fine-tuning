@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Local Model Studio</title><link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header><a class="brand" href="/">Local Model Studio<span>Experiment workspace</span></a><div class="local"><i></i> RUNS ON YOUR COMPUTER</div></header>
+  <div class="workspace">
+    <aside>
+      <div class="section-head"><h2>Model & adapter</h2><button id="refresh" class="icon-button" title="Refresh local models" aria-label="Refresh local models">↻</button></div>
+      <label for="model">Base model</label><select id="model"></select>
+      <p id="model-note" class="hint"></p>
+      <label class="toggle"><input type="checkbox" id="use-lora" checked> Use LoRA adapter</label>
+      <label for="adapter">Checkpoint</label><select id="adapter"></select>
+      <div class="rule"></div>
+      <details id="settings-panel" open><summary>Generation settings</summary><div id="fields" class="fields"></div>
+      <p class="hint">Keep the seed fixed to compare the same composition. Change it to explore a new result.</p></details>
+      <div class="rule"></div>
+      <button id="history-button" class="secondary wide">Browse saved tests</button>
+      <p class="hint">Prompts, settings, and outputs are saved locally.</p>
+    </aside>
+    <main>
+      <div class="main-head"><div><span class="eyebrow" id="type-label">IMAGE WORKSPACE</span><h1>Try a prompt.<br>See what the adapter changes.</h1></div><button id="clear" class="text-button">Clear view</button></div>
+      <div id="feed" aria-live="polite"><div class="empty" id="welcome"><span class="empty-symbol">✳</span><h3>Your first comparison starts here.</h3><p>Select a model and checkpoint, describe the image, then compare the base with your LoRA.</p><div class="facts"><span>Same prompt</span><span>Same seed</span><span>One GPU request at a time</span></div></div></div>
+      <section class="composer">
+        <div class="composer-top"><label for="prompt">Describe your image</label><button id="example" class="text-button">Use example prompt</button></div>
+        <textarea id="prompt" rows="4" maxlength="4000" placeholder="Describe the subject, outfit, scene, and style…"></textarea>
+        <div id="status" role="status"></div><progress id="progress" max="100" value="0" hidden></progress>
+        <div class="composer-bottom"><span id="mode-note" class="hint">Each image uses the current prompt.</span><div><button id="compare" class="secondary">Compare base + LoRA</button><button id="generate" class="primary">Generate image <span>↗</span></button></div></div>
+      </section>
+    </main>
+  </div>
+  <dialog id="history"><div class="dialog-head"><h2>Saved tests</h2><button id="close-history" class="icon-button" aria-label="Close history">×</button></div><div id="history-list"></div></dialog>
+  <script type="module" src="/app.js"></script>
+</body>
+</html>

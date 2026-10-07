@@ -1,5 +1,33 @@
 # Sora training handoff
 
+## Local Model Studio added 2026-10-08
+
+Launch `studio/start.ps1`; browser URL `http://127.0.0.1:7860`. The local server
+uses the existing environment and standard-library HTTP. It offers both image
+models, base-only / LoRA-only generation, matched comparisons, checkpoint and
+sampling controls, progress, saved history and image/settings downloads. Original
+weights and adapters are read without modification. Outputs stay in ignored
+`studio/artifacts/jobs/`.
+
+Five request-validation tests passed. Real GPU tests covered both models and
+standalone base/LoRA modes; each comparison matched the corresponding existing
+experiment PNGs byte for byte. Browser testing used project-local Agent Browser
+0.38.2 with installed Chrome in a separate profile. See `studio/README.md` for
+usage, extension contracts and existing apps. Only image inference is implemented;
+future text chat needs conversation handling, and voice/video need their own
+loaders and training/inference backends. Agent Browser is a local test tool and is
+not required to run the UI.
+
+## Latest experiment — DreamShaper 8 completed 2026-10-08
+
+The original Waifu Diffusion / Sora experiment below is preserved in place. `experiments/image/waifu-diffusion-sora/profile.json` registers it in the new structure. `experiments/preserved-sd1.json` records 221 original file hashes; all matched after DreamShaper training, full evaluation and an additional scene. Original models, data/captions/latents, scripts/configs, adapters and evaluation files were not changed.
+
+DreamShaper 8 is pinned to `Lykon/dreamshaper-8` revision `a7e52b98680b1ba8ff7bce97c7f9f2e2e5337917`. Separate model/cache/artifact paths are under `experiments/image/dreamshaper8/`. The 10-step smoke test, fresh 400-step run, all checkpoint evaluations, matched solo portrait and additional sunset bridge scene passed. Full training took 17m27s by adapter metadata / 17m41s including trainer launch; sampled maximum device memory was 2,504 MiB and temperature 89 C. No CUDA OOM. All saved adapters are finite.
+
+Recommended starting adapter: `experiments/image/dreamshaper8/results/dreamshaper8-sora-001/train/sora.safetensors`, strength 0.8, with `solo`. New final SHA-256: `8d65b6f33f9b5c484105a2997ecb3d2ed761693813d234e502c5b5d4335cd163`. The versioned result export includes five adapters, configs/manifests, telemetry and 23 images. Raw artifacts are in `experiments/image/dreamshaper8/artifacts/dreamshaper8-sora-001/` and ignored by Git. Read `docs/dreamshaper8-results.md` and the exported `comparison.html`; jacket color, scarves on alternate outfits, hands and precise action obedience remain limitations.
+
+`experiments/run.ps1` is the new profile-based launcher; its default action starts a fresh full pipeline, so do not invoke it merely to inspect results. See `experiments/README.md` for individual stages, new-prompt generation and exports. Eight isolation/integrity tests passed. Existing `scripts/` launchers retain their original behavior. Image SD1.x LoRA is implemented; text, video and audio/voice folders are extension documentation and require their own backends.
+
 ## Status — completed 2026-10-07
 
 The authorized local fine-tuning pipeline completed: installation, pinned model download, baseline inference, 10-step smoke training, fresh 400-step training, final inference, and comparison of 100/200/300/400-step checkpoints. GPU memory fit and adapter loading are now verified. The user subsequently requested GitHub publication and explicitly chose a public repository on 2026-10-08.

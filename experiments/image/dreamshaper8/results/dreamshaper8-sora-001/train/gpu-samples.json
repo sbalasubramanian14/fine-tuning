@@ -1,0 +1,2050 @@
+[
+  {
+    "elapsed_seconds": 0.08,
+    "memory_mib,utilization_percent,temperature_c": "123, 0, 64"
+  },
+  {
+    "elapsed_seconds": 2.12,
+    "memory_mib,utilization_percent,temperature_c": "123, 0, 63"
+  },
+  {
+    "elapsed_seconds": 4.19,
+    "memory_mib,utilization_percent,temperature_c": "123, 0, 63"
+  },
+  {
+    "elapsed_seconds": 6.27,
+    "memory_mib,utilization_percent,temperature_c": "123, 0, 62"
+  },
+  {
+    "elapsed_seconds": 8.33,
+    "memory_mib,utilization_percent,temperature_c": "123, 0, 62"
+  },
+  {
+    "elapsed_seconds": 10.41,
+    "memory_mib,utilization_percent,temperature_c": "123, 0, 62"
+  },
+  {
+    "elapsed_seconds": 12.47,
+    "memory_mib,utilization_percent,temperature_c": "123, 0, 62"
+  },
+  {
+    "elapsed_seconds": 14.56,
+    "memory_mib,utilization_percent,temperature_c": "123, 0, 61"
+  },
+  {
+    "elapsed_seconds": 16.64,
+    "memory_mib,utilization_percent,temperature_c": "123, 0, 61"
+  },
+  {
+    "elapsed_seconds": 18.72,
+    "memory_mib,utilization_percent,temperature_c": "123, 0, 61"
+  },
+  {
+    "elapsed_seconds": 20.8,
+    "memory_mib,utilization_percent,temperature_c": "123, 0, 61"
+  },
+  {
+    "elapsed_seconds": 22.88,
+    "memory_mib,utilization_percent,temperature_c": "366, 8, 63"
+  },
+  {
+    "elapsed_seconds": 24.94,
+    "memory_mib,utilization_percent,temperature_c": "2148, 0, 63"
+  },
+  {
+    "elapsed_seconds": 27.05,
+    "memory_mib,utilization_percent,temperature_c": "2484, 33, 68"
+  },
+  {
+    "elapsed_seconds": 29.11,
+    "memory_mib,utilization_percent,temperature_c": "2502, 68, 72"
+  },
+  {
+    "elapsed_seconds": 31.17,
+    "memory_mib,utilization_percent,temperature_c": "2502, 71, 75"
+  },
+  {
+    "elapsed_seconds": 33.22,
+    "memory_mib,utilization_percent,temperature_c": "2502, 50, 73"
+  },
+  {
+    "elapsed_seconds": 35.3,
+    "memory_mib,utilization_percent,temperature_c": "2502, 59, 74"
+  },
+  {
+    "elapsed_seconds": 37.36,
+    "memory_mib,utilization_percent,temperature_c": "2502, 53, 71"
+  },
+  {
+    "elapsed_seconds": 39.42,
+    "memory_mib,utilization_percent,temperature_c": "2502, 66, 76"
+  },
+  {
+    "elapsed_seconds": 41.47,
+    "memory_mib,utilization_percent,temperature_c": "2502, 80, 77"
+  },
+  {
+    "elapsed_seconds": 43.53,
+    "memory_mib,utilization_percent,temperature_c": "2502, 72, 76"
+  },
+  {
+    "elapsed_seconds": 45.59,
+    "memory_mib,utilization_percent,temperature_c": "2502, 65, 75"
+  },
+  {
+    "elapsed_seconds": 47.66,
+    "memory_mib,utilization_percent,temperature_c": "2502, 77, 76"
+  },
+  {
+    "elapsed_seconds": 49.72,
+    "memory_mib,utilization_percent,temperature_c": "2502, 26, 76"
+  },
+  {
+    "elapsed_seconds": 51.77,
+    "memory_mib,utilization_percent,temperature_c": "2504, 59, 79"
+  },
+  {
+    "elapsed_seconds": 53.83,
+    "memory_mib,utilization_percent,temperature_c": "2504, 59, 77"
+  },
+  {
+    "elapsed_seconds": 55.89,
+    "memory_mib,utilization_percent,temperature_c": "2504, 45, 77"
+  },
+  {
+    "elapsed_seconds": 57.94,
+    "memory_mib,utilization_percent,temperature_c": "2504, 29, 74"
+  },
+  {
+    "elapsed_seconds": 60.02,
+    "memory_mib,utilization_percent,temperature_c": "2504, 31, 75"
+  },
+  {
+    "elapsed_seconds": 62.06,
+    "memory_mib,utilization_percent,temperature_c": "2504, 36, 76"
+  },
+  {
+    "elapsed_seconds": 64.14,
+    "memory_mib,utilization_percent,temperature_c": "2504, 29, 77"
+  },
+  {
+    "elapsed_seconds": 66.22,
+    "memory_mib,utilization_percent,temperature_c": "2504, 28, 75"
+  },
+  {
+    "elapsed_seconds": 68.3,
+    "memory_mib,utilization_percent,temperature_c": "2504, 45, 75"
+  },
+  {
+    "elapsed_seconds": 70.34,
+    "memory_mib,utilization_percent,temperature_c": "2504, 47, 77"
+  },
+  {
+    "elapsed_seconds": 72.39,
+    "memory_mib,utilization_percent,temperature_c": "2504, 69, 79"
+  },
+  {
+    "elapsed_seconds": 74.47,
+    "memory_mib,utilization_percent,temperature_c": "2504, 45, 78"
+  },
+  {
+    "elapsed_seconds": 76.53,
+    "memory_mib,utilization_percent,temperature_c": "2504, 71, 80"
+  },
+  {
+    "elapsed_seconds": 78.59,
+    "memory_mib,utilization_percent,temperature_c": "2504, 53, 77"
+  },
+  {
+    "elapsed_seconds": 80.69,
+    "memory_mib,utilization_percent,temperature_c": "2504, 37, 78"
+  },
+  {
+    "elapsed_seconds": 82.74,
+    "memory_mib,utilization_percent,temperature_c": "2504, 78, 80"
+  },
+  {
+    "elapsed_seconds": 84.81,
+    "memory_mib,utilization_percent,temperature_c": "2504, 54, 80"
+  },
+  {
+    "elapsed_seconds": 86.88,
+    "memory_mib,utilization_percent,temperature_c": "2504, 57, 83"
+  },
+  {
+    "elapsed_seconds": 88.94,
+    "memory_mib,utilization_percent,temperature_c": "2504, 59, 80"
+  },
+  {
+    "elapsed_seconds": 91.0,
+    "memory_mib,utilization_percent,temperature_c": "2504, 47, 80"
+  },
+  {
+    "elapsed_seconds": 93.08,
+    "memory_mib,utilization_percent,temperature_c": "2504, 42, 77"
+  },
+  {
+    "elapsed_seconds": 95.16,
+    "memory_mib,utilization_percent,temperature_c": "2504, 35, 80"
+  },
+  {
+    "elapsed_seconds": 97.22,
+    "memory_mib,utilization_percent,temperature_c": "2504, 43, 78"
+  },
+  {
+    "elapsed_seconds": 99.27,
+    "memory_mib,utilization_percent,temperature_c": "2504, 32, 79"
+  },
+  {
+    "elapsed_seconds": 101.34,
+    "memory_mib,utilization_percent,temperature_c": "2504, 38, 78"
+  },
+  {
+    "elapsed_seconds": 103.42,
+    "memory_mib,utilization_percent,temperature_c": "2504, 21, 77"
+  },
+  {
+    "elapsed_seconds": 105.47,
+    "memory_mib,utilization_percent,temperature_c": "2504, 33, 80"
+  },
+  {
+    "elapsed_seconds": 107.56,
+    "memory_mib,utilization_percent,temperature_c": "2504, 32, 80"
+  },
+  {
+    "elapsed_seconds": 109.64,
+    "memory_mib,utilization_percent,temperature_c": "2504, 39, 80"
+  },
+  {
+    "elapsed_seconds": 111.7,
+    "memory_mib,utilization_percent,temperature_c": "2504, 53, 80"
+  },
+  {
+    "elapsed_seconds": 113.77,
+    "memory_mib,utilization_percent,temperature_c": "2504, 56, 83"
+  },
+  {
+    "elapsed_seconds": 115.83,
+    "memory_mib,utilization_percent,temperature_c": "2504, 52, 82"
+  },
+  {
+    "elapsed_seconds": 117.91,
+    "memory_mib,utilization_percent,temperature_c": "2504, 26, 77"
+  },
+  {
+    "elapsed_seconds": 119.99,
+    "memory_mib,utilization_percent,temperature_c": "2504, 44, 82"
+  },
+  {
+    "elapsed_seconds": 122.05,
+    "memory_mib,utilization_percent,temperature_c": "2504, 55, 81"
+  },
+  {
+    "elapsed_seconds": 124.14,
+    "memory_mib,utilization_percent,temperature_c": "2504, 39, 81"
+  },
+  {
+    "elapsed_seconds": 126.2,
+    "memory_mib,utilization_percent,temperature_c": "2504, 38, 82"
+  },
+  {
+    "elapsed_seconds": 128.25,
+    "memory_mib,utilization_percent,temperature_c": "2504, 70, 84"
+  },
+  {
+    "elapsed_seconds": 130.31,
+    "memory_mib,utilization_percent,temperature_c": "2504, 67, 82"
+  },
+  {
+    "elapsed_seconds": 132.36,
+    "memory_mib,utilization_percent,temperature_c": "2504, 72, 84"
+  },
+  {
+    "elapsed_seconds": 134.44,
+    "memory_mib,utilization_percent,temperature_c": "2504, 65, 83"
+  },
+  {
+    "elapsed_seconds": 136.5,
+    "memory_mib,utilization_percent,temperature_c": "2504, 53, 84"
+  },
+  {
+    "elapsed_seconds": 138.56,
+    "memory_mib,utilization_percent,temperature_c": "2504, 42, 83"
+  },
+  {
+    "elapsed_seconds": 140.62,
+    "memory_mib,utilization_percent,temperature_c": "2504, 26, 82"
+  },
+  {
+    "elapsed_seconds": 142.69,
+    "memory_mib,utilization_percent,temperature_c": "2504, 44, 82"
+  },
+  {
+    "elapsed_seconds": 144.77,
+    "memory_mib,utilization_percent,temperature_c": "2504, 55, 82"
+  },
+  {
+    "elapsed_seconds": 146.83,
+    "memory_mib,utilization_percent,temperature_c": "2504, 32, 82"
+  },
+  {
+    "elapsed_seconds": 148.91,
+    "memory_mib,utilization_percent,temperature_c": "2504, 55, 82"
+  },
+  {
+    "elapsed_seconds": 150.97,
+    "memory_mib,utilization_percent,temperature_c": "2504, 61, 80"
+  },
+  {
+    "elapsed_seconds": 153.02,
+    "memory_mib,utilization_percent,temperature_c": "2504, 71, 83"
+  },
+  {
+    "elapsed_seconds": 155.06,
+    "memory_mib,utilization_percent,temperature_c": "2504, 70, 84"
+  },
+  {
+    "elapsed_seconds": 157.16,
+    "memory_mib,utilization_percent,temperature_c": "2504, 58, 82"
+  },
+  {
+    "elapsed_seconds": 159.24,
+    "memory_mib,utilization_percent,temperature_c": "2504, 69, 85"
+  },
+  {
+    "elapsed_seconds": 161.28,
+    "memory_mib,utilization_percent,temperature_c": "2504, 70, 85"
+  },
+  {
+    "elapsed_seconds": 163.34,
+    "memory_mib,utilization_percent,temperature_c": "2504, 46, 83"
+  },
+  {
+    "elapsed_seconds": 165.39,
+    "memory_mib,utilization_percent,temperature_c": "2504, 52, 84"
+  },
+  {
+    "elapsed_seconds": 167.47,
+    "memory_mib,utilization_percent,temperature_c": "2504, 50, 83"
+  },
+  {
+    "elapsed_seconds": 169.53,
+    "memory_mib,utilization_percent,temperature_c": "2504, 49, 84"
+  },
+  {
+    "elapsed_seconds": 171.59,
+    "memory_mib,utilization_percent,temperature_c": "2504, 52, 84"
+  },
+  {
+    "elapsed_seconds": 173.66,
+    "memory_mib,utilization_percent,temperature_c": "2504, 46, 85"
+  },
+  {
+    "elapsed_seconds": 175.74,
+    "memory_mib,utilization_percent,temperature_c": "2504, 23, 81"
+  },
+  {
+    "elapsed_seconds": 177.8,
+    "memory_mib,utilization_percent,temperature_c": "2504, 52, 83"
+  },
+  {
+    "elapsed_seconds": 179.88,
+    "memory_mib,utilization_percent,temperature_c": "2504, 60, 85"
+  },
+  {
+    "elapsed_seconds": 181.95,
+    "memory_mib,utilization_percent,temperature_c": "2504, 36, 83"
+  },
+  {
+    "elapsed_seconds": 184.02,
+    "memory_mib,utilization_percent,temperature_c": "2504, 74, 84"
+  },
+  {
+    "elapsed_seconds": 186.06,
+    "memory_mib,utilization_percent,temperature_c": "2504, 29, 81"
+  },
+  {
+    "elapsed_seconds": 188.14,
+    "memory_mib,utilization_percent,temperature_c": "2504, 47, 85"
+  },
+  {
+    "elapsed_seconds": 190.22,
+    "memory_mib,utilization_percent,temperature_c": "2504, 68, 84"
+  },
+  {
+    "elapsed_seconds": 192.28,
+    "memory_mib,utilization_percent,temperature_c": "2504, 48, 83"
+  },
+  {
+    "elapsed_seconds": 194.34,
+    "memory_mib,utilization_percent,temperature_c": "2504, 44, 83"
+  },
+  {
+    "elapsed_seconds": 196.42,
+    "memory_mib,utilization_percent,temperature_c": "2504, 34, 84"
+  },
+  {
+    "elapsed_seconds": 198.49,
+    "memory_mib,utilization_percent,temperature_c": "2504, 52, 83"
+  },
+  {
+    "elapsed_seconds": 200.55,
+    "memory_mib,utilization_percent,temperature_c": "2504, 50, 84"
+  },
+  {
+    "elapsed_seconds": 202.62,
+    "memory_mib,utilization_percent,temperature_c": "2504, 50, 84"
+  },
+  {
+    "elapsed_seconds": 204.69,
+    "memory_mib,utilization_percent,temperature_c": "2504, 72, 85"
+  },
+  {
+    "elapsed_seconds": 206.77,
+    "memory_mib,utilization_percent,temperature_c": "2504, 45, 85"
+  },
+  {
+    "elapsed_seconds": 208.83,
+    "memory_mib,utilization_percent,temperature_c": "2504, 57, 84"
+  },
+  {
+    "elapsed_seconds": 210.92,
+    "memory_mib,utilization_percent,temperature_c": "2504, 30, 84"
+  },
+  {
+    "elapsed_seconds": 213.0,
+    "memory_mib,utilization_percent,temperature_c": "2504, 54, 86"
+  },
+  {
+    "elapsed_seconds": 215.08,
+    "memory_mib,utilization_percent,temperature_c": "2504, 51, 85"
+  },
+  {
+    "elapsed_seconds": 217.14,
+    "memory_mib,utilization_percent,temperature_c": "2504, 38, 81"
+  },
+  {
+    "elapsed_seconds": 219.22,
+    "memory_mib,utilization_percent,temperature_c": "2504, 57, 86"
+  },
+  {
+    "elapsed_seconds": 221.28,
+    "memory_mib,utilization_percent,temperature_c": "2504, 47, 84"
+  },
+  {
+    "elapsed_seconds": 223.34,
+    "memory_mib,utilization_percent,temperature_c": "2504, 68, 85"
+  },
+  {
+    "elapsed_seconds": 225.42,
+    "memory_mib,utilization_percent,temperature_c": "2504, 35, 84"
+  },
+  {
+    "elapsed_seconds": 227.49,
+    "memory_mib,utilization_percent,temperature_c": "2504, 42, 84"
+  },
+  {
+    "elapsed_seconds": 229.55,
+    "memory_mib,utilization_percent,temperature_c": "2504, 66, 85"
+  },
+  {
+    "elapsed_seconds": 231.62,
+    "memory_mib,utilization_percent,temperature_c": "2504, 30, 84"
+  },
+  {
+    "elapsed_seconds": 233.7,
+    "memory_mib,utilization_percent,temperature_c": "2504, 48, 85"
+  },
+  {
+    "elapsed_seconds": 235.77,
+    "memory_mib,utilization_percent,temperature_c": "2504, 47, 84"
+  },
+  {
+    "elapsed_seconds": 237.83,
+    "memory_mib,utilization_percent,temperature_c": "2504, 66, 85"
+  },
+  {
+    "elapsed_seconds": 239.91,
+    "memory_mib,utilization_percent,temperature_c": "2504, 40, 84"
+  },
+  {
+    "elapsed_seconds": 241.97,
+    "memory_mib,utilization_percent,temperature_c": "2504, 68, 86"
+  },
+  {
+    "elapsed_seconds": 244.05,
+    "memory_mib,utilization_percent,temperature_c": "2504, 20, 83"
+  },
+  {
+    "elapsed_seconds": 246.11,
+    "memory_mib,utilization_percent,temperature_c": "2504, 43, 86"
+  },
+  {
+    "elapsed_seconds": 248.17,
+    "memory_mib,utilization_percent,temperature_c": "2504, 48, 84"
+  },
+  {
+    "elapsed_seconds": 250.24,
+    "memory_mib,utilization_percent,temperature_c": "2504, 45, 85"
+  },
+  {
+    "elapsed_seconds": 252.31,
+    "memory_mib,utilization_percent,temperature_c": "2504, 41, 85"
+  },
+  {
+    "elapsed_seconds": 254.39,
+    "memory_mib,utilization_percent,temperature_c": "2504, 45, 84"
+  },
+  {
+    "elapsed_seconds": 256.47,
+    "memory_mib,utilization_percent,temperature_c": "2504, 34, 85"
+  },
+  {
+    "elapsed_seconds": 258.55,
+    "memory_mib,utilization_percent,temperature_c": "2504, 47, 85"
+  },
+  {
+    "elapsed_seconds": 260.61,
+    "memory_mib,utilization_percent,temperature_c": "2504, 48, 86"
+  },
+  {
+    "elapsed_seconds": 262.67,
+    "memory_mib,utilization_percent,temperature_c": "2504, 51, 85"
+  },
+  {
+    "elapsed_seconds": 264.75,
+    "memory_mib,utilization_percent,temperature_c": "2504, 44, 83"
+  },
+  {
+    "elapsed_seconds": 266.81,
+    "memory_mib,utilization_percent,temperature_c": "2504, 64, 87"
+  },
+  {
+    "elapsed_seconds": 268.88,
+    "memory_mib,utilization_percent,temperature_c": "2504, 48, 84"
+  },
+  {
+    "elapsed_seconds": 270.94,
+    "memory_mib,utilization_percent,temperature_c": "2504, 38, 85"
+  },
+  {
+    "elapsed_seconds": 273.03,
+    "memory_mib,utilization_percent,temperature_c": "2504, 62, 85"
+  },
+  {
+    "elapsed_seconds": 275.09,
+    "memory_mib,utilization_percent,temperature_c": "2504, 47, 85"
+  },
+  {
+    "elapsed_seconds": 277.17,
+    "memory_mib,utilization_percent,temperature_c": "2504, 56, 85"
+  },
+  {
+    "elapsed_seconds": 279.24,
+    "memory_mib,utilization_percent,temperature_c": "2504, 51, 86"
+  },
+  {
+    "elapsed_seconds": 281.31,
+    "memory_mib,utilization_percent,temperature_c": "2504, 61, 86"
+  },
+  {
+    "elapsed_seconds": 283.39,
+    "memory_mib,utilization_percent,temperature_c": "2504, 48, 87"
+  },
+  {
+    "elapsed_seconds": 285.47,
+    "memory_mib,utilization_percent,temperature_c": "2504, 22, 82"
+  },
+  {
+    "elapsed_seconds": 287.56,
+    "memory_mib,utilization_percent,temperature_c": "2504, 35, 83"
+  },
+  {
+    "elapsed_seconds": 289.66,
+    "memory_mib,utilization_percent,temperature_c": "2504, 29, 83"
+  },
+  {
+    "elapsed_seconds": 291.72,
+    "memory_mib,utilization_percent,temperature_c": "2504, 34, 83"
+  },
+  {
+    "elapsed_seconds": 293.8,
+    "memory_mib,utilization_percent,temperature_c": "2504, 40, 86"
+  },
+  {
+    "elapsed_seconds": 295.92,
+    "memory_mib,utilization_percent,temperature_c": "2504, 23, 82"
+  },
+  {
+    "elapsed_seconds": 298.02,
+    "memory_mib,utilization_percent,temperature_c": "2504, 31, 85"
+  },
+  {
+    "elapsed_seconds": 300.08,
+    "memory_mib,utilization_percent,temperature_c": "2504, 41, 86"
+  },
+  {
+    "elapsed_seconds": 302.14,
+    "memory_mib,utilization_percent,temperature_c": "2504, 49, 85"
+  },
+  {
+    "elapsed_seconds": 304.22,
+    "memory_mib,utilization_percent,temperature_c": "2504, 46, 85"
+  },
+  {
+    "elapsed_seconds": 306.3,
+    "memory_mib,utilization_percent,temperature_c": "2504, 49, 85"
+  },
+  {
+    "elapsed_seconds": 308.38,
+    "memory_mib,utilization_percent,temperature_c": "2504, 64, 86"
+  },
+  {
+    "elapsed_seconds": 310.44,
+    "memory_mib,utilization_percent,temperature_c": "2504, 39, 85"
+  },
+  {
+    "elapsed_seconds": 312.5,
+    "memory_mib,utilization_percent,temperature_c": "2504, 59, 85"
+  },
+  {
+    "elapsed_seconds": 314.56,
+    "memory_mib,utilization_percent,temperature_c": "2504, 47, 86"
+  },
+  {
+    "elapsed_seconds": 316.66,
+    "memory_mib,utilization_percent,temperature_c": "2504, 21, 83"
+  },
+  {
+    "elapsed_seconds": 318.72,
+    "memory_mib,utilization_percent,temperature_c": "2504, 52, 85"
+  },
+  {
+    "elapsed_seconds": 320.8,
+    "memory_mib,utilization_percent,temperature_c": "2504, 42, 86"
+  },
+  {
+    "elapsed_seconds": 322.86,
+    "memory_mib,utilization_percent,temperature_c": "2504, 66, 86"
+  },
+  {
+    "elapsed_seconds": 324.94,
+    "memory_mib,utilization_percent,temperature_c": "2504, 42, 86"
+  },
+  {
+    "elapsed_seconds": 327.02,
+    "memory_mib,utilization_percent,temperature_c": "2504, 44, 87"
+  },
+  {
+    "elapsed_seconds": 329.09,
+    "memory_mib,utilization_percent,temperature_c": "2504, 50, 85"
+  },
+  {
+    "elapsed_seconds": 331.19,
+    "memory_mib,utilization_percent,temperature_c": "2504, 19, 83"
+  },
+  {
+    "elapsed_seconds": 333.27,
+    "memory_mib,utilization_percent,temperature_c": "2504, 47, 87"
+  },
+  {
+    "elapsed_seconds": 335.33,
+    "memory_mib,utilization_percent,temperature_c": "2504, 46, 86"
+  },
+  {
+    "elapsed_seconds": 337.41,
+    "memory_mib,utilization_percent,temperature_c": "2504, 48, 85"
+  },
+  {
+    "elapsed_seconds": 339.49,
+    "memory_mib,utilization_percent,temperature_c": "2504, 35, 85"
+  },
+  {
+    "elapsed_seconds": 341.56,
+    "memory_mib,utilization_percent,temperature_c": "2504, 44, 85"
+  },
+  {
+    "elapsed_seconds": 343.62,
+    "memory_mib,utilization_percent,temperature_c": "2504, 46, 86"
+  },
+  {
+    "elapsed_seconds": 345.7,
+    "memory_mib,utilization_percent,temperature_c": "2504, 17, 84"
+  },
+  {
+    "elapsed_seconds": 347.78,
+    "memory_mib,utilization_percent,temperature_c": "2504, 43, 86"
+  },
+  {
+    "elapsed_seconds": 349.84,
+    "memory_mib,utilization_percent,temperature_c": "2504, 47, 86"
+  },
+  {
+    "elapsed_seconds": 351.92,
+    "memory_mib,utilization_percent,temperature_c": "2504, 47, 85"
+  },
+  {
+    "elapsed_seconds": 354.02,
+    "memory_mib,utilization_percent,temperature_c": "2504, 42, 84"
+  },
+  {
+    "elapsed_seconds": 356.11,
+    "memory_mib,utilization_percent,temperature_c": "2504, 47, 85"
+  },
+  {
+    "elapsed_seconds": 358.19,
+    "memory_mib,utilization_percent,temperature_c": "2504, 52, 86"
+  },
+  {
+    "elapsed_seconds": 360.25,
+    "memory_mib,utilization_percent,temperature_c": "2504, 46, 85"
+  },
+  {
+    "elapsed_seconds": 362.33,
+    "memory_mib,utilization_percent,temperature_c": "2504, 59, 87"
+  },
+  {
+    "elapsed_seconds": 364.42,
+    "memory_mib,utilization_percent,temperature_c": "2504, 41, 86"
+  },
+  {
+    "elapsed_seconds": 366.5,
+    "memory_mib,utilization_percent,temperature_c": "2504, 45, 85"
+  },
+  {
+    "elapsed_seconds": 368.58,
+    "memory_mib,utilization_percent,temperature_c": "2504, 39, 85"
+  },
+  {
+    "elapsed_seconds": 370.66,
+    "memory_mib,utilization_percent,temperature_c": "2504, 43, 85"
+  },
+  {
+    "elapsed_seconds": 372.74,
+    "memory_mib,utilization_percent,temperature_c": "2504, 24, 84"
+  },
+  {
+    "elapsed_seconds": 374.8,
+    "memory_mib,utilization_percent,temperature_c": "2504, 46, 85"
+  },
+  {
+    "elapsed_seconds": 376.88,
+    "memory_mib,utilization_percent,temperature_c": "2504, 43, 86"
+  },
+  {
+    "elapsed_seconds": 378.95,
+    "memory_mib,utilization_percent,temperature_c": "2504, 38, 85"
+  },
+  {
+    "elapsed_seconds": 381.03,
+    "memory_mib,utilization_percent,temperature_c": "2504, 23, 85"
+  },
+  {
+    "elapsed_seconds": 383.09,
+    "memory_mib,utilization_percent,temperature_c": "2504, 42, 85"
+  },
+  {
+    "elapsed_seconds": 385.17,
+    "memory_mib,utilization_percent,temperature_c": "2504, 53, 86"
+  },
+  {
+    "elapsed_seconds": 387.27,
+    "memory_mib,utilization_percent,temperature_c": "2504, 38, 86"
+  },
+  {
+    "elapsed_seconds": 389.36,
+    "memory_mib,utilization_percent,temperature_c": "2504, 50, 84"
+  },
+  {
+    "elapsed_seconds": 391.42,
+    "memory_mib,utilization_percent,temperature_c": "2504, 35, 87"
+  },
+  {
+    "elapsed_seconds": 393.49,
+    "memory_mib,utilization_percent,temperature_c": "2504, 52, 87"
+  },
+  {
+    "elapsed_seconds": 395.56,
+    "memory_mib,utilization_percent,temperature_c": "2504, 51, 86"
+  },
+  {
+    "elapsed_seconds": 397.64,
+    "memory_mib,utilization_percent,temperature_c": "2504, 41, 84"
+  },
+  {
+    "elapsed_seconds": 399.7,
+    "memory_mib,utilization_percent,temperature_c": "2504, 41, 86"
+  },
+  {
+    "elapsed_seconds": 401.78,
+    "memory_mib,utilization_percent,temperature_c": "2504, 38, 85"
+  },
+  {
+    "elapsed_seconds": 403.86,
+    "memory_mib,utilization_percent,temperature_c": "2504, 42, 84"
+  },
+  {
+    "elapsed_seconds": 405.92,
+    "memory_mib,utilization_percent,temperature_c": "2504, 43, 85"
+  },
+  {
+    "elapsed_seconds": 408.0,
+    "memory_mib,utilization_percent,temperature_c": "2504, 37, 83"
+  },
+  {
+    "elapsed_seconds": 410.08,
+    "memory_mib,utilization_percent,temperature_c": "2504, 44, 87"
+  },
+  {
+    "elapsed_seconds": 412.17,
+    "memory_mib,utilization_percent,temperature_c": "2504, 50, 86"
+  },
+  {
+    "elapsed_seconds": 414.27,
+    "memory_mib,utilization_percent,temperature_c": "2504, 44, 84"
+  },
+  {
+    "elapsed_seconds": 416.34,
+    "memory_mib,utilization_percent,temperature_c": "2504, 43, 85"
+  },
+  {
+    "elapsed_seconds": 418.41,
+    "memory_mib,utilization_percent,temperature_c": "2504, 29, 84"
+  },
+  {
+    "elapsed_seconds": 420.49,
+    "memory_mib,utilization_percent,temperature_c": "2504, 51, 85"
+  },
+  {
+    "elapsed_seconds": 422.55,
+    "memory_mib,utilization_percent,temperature_c": "2504, 24, 84"
+  },
+  {
+    "elapsed_seconds": 424.61,
+    "memory_mib,utilization_percent,temperature_c": "2504, 44, 85"
+  },
+  {
+    "elapsed_seconds": 426.69,
+    "memory_mib,utilization_percent,temperature_c": "2504, 29, 83"
+  },
+  {
+    "elapsed_seconds": 428.75,
+    "memory_mib,utilization_percent,temperature_c": "2504, 34, 84"
+  },
+  {
+    "elapsed_seconds": 430.83,
+    "memory_mib,utilization_percent,temperature_c": "2504, 63, 86"
+  },
+  {
+    "elapsed_seconds": 432.91,
+    "memory_mib,utilization_percent,temperature_c": "2504, 61, 87"
+  },
+  {
+    "elapsed_seconds": 434.99,
+    "memory_mib,utilization_percent,temperature_c": "2504, 38, 85"
+  },
+  {
+    "elapsed_seconds": 437.06,
+    "memory_mib,utilization_percent,temperature_c": "2504, 29, 85"
+  },
+  {
+    "elapsed_seconds": 439.14,
+    "memory_mib,utilization_percent,temperature_c": "2504, 36, 83"
+  },
+  {
+    "elapsed_seconds": 441.22,
+    "memory_mib,utilization_percent,temperature_c": "2504, 43, 83"
+  },
+  {
+    "elapsed_seconds": 443.3,
+    "memory_mib,utilization_percent,temperature_c": "2504, 15, 83"
+  },
+  {
+    "elapsed_seconds": 445.38,
+    "memory_mib,utilization_percent,temperature_c": "2504, 26, 81"
+  },
+  {
+    "elapsed_seconds": 447.45,
+    "memory_mib,utilization_percent,temperature_c": "2504, 22, 82"
+  },
+  {
+    "elapsed_seconds": 449.53,
+    "memory_mib,utilization_percent,temperature_c": "2504, 33, 81"
+  },
+  {
+    "elapsed_seconds": 451.59,
+    "memory_mib,utilization_percent,temperature_c": "2504, 27, 82"
+  },
+  {
+    "elapsed_seconds": 453.66,
+    "memory_mib,utilization_percent,temperature_c": "2504, 20, 81"
+  },
+  {
+    "elapsed_seconds": 455.75,
+    "memory_mib,utilization_percent,temperature_c": "2504, 42, 83"
+  },
+  {
+    "elapsed_seconds": 457.81,
+    "memory_mib,utilization_percent,temperature_c": "2504, 31, 85"
+  },
+  {
+    "elapsed_seconds": 459.89,
+    "memory_mib,utilization_percent,temperature_c": "2504, 27, 83"
+  },
+  {
+    "elapsed_seconds": 461.97,
+    "memory_mib,utilization_percent,temperature_c": "2504, 35, 83"
+  },
+  {
+    "elapsed_seconds": 464.03,
+    "memory_mib,utilization_percent,temperature_c": "2504, 31, 83"
+  },
+  {
+    "elapsed_seconds": 466.11,
+    "memory_mib,utilization_percent,temperature_c": "2504, 38, 83"
+  },
+  {
+    "elapsed_seconds": 468.22,
+    "memory_mib,utilization_percent,temperature_c": "2504, 28, 82"
+  },
+  {
+    "elapsed_seconds": 470.3,
+    "memory_mib,utilization_percent,temperature_c": "2504, 31, 81"
+  },
+  {
+    "elapsed_seconds": 472.36,
+    "memory_mib,utilization_percent,temperature_c": "2504, 35, 79"
+  },
+  {
+    "elapsed_seconds": 474.5,
+    "memory_mib,utilization_percent,temperature_c": "2504, 33, 76"
+  },
+  {
+    "elapsed_seconds": 476.56,
+    "memory_mib,utilization_percent,temperature_c": "2504, 20, 78"
+  },
+  {
+    "elapsed_seconds": 478.62,
+    "memory_mib,utilization_percent,temperature_c": "2504, 50, 83"
+  },
+  {
+    "elapsed_seconds": 480.72,
+    "memory_mib,utilization_percent,temperature_c": "2504, 31, 80"
+  },
+  {
+    "elapsed_seconds": 482.78,
+    "memory_mib,utilization_percent,temperature_c": "2504, 20, 81"
+  },
+  {
+    "elapsed_seconds": 484.86,
+    "memory_mib,utilization_percent,temperature_c": "2504, 37, 84"
+  },
+  {
+    "elapsed_seconds": 486.92,
+    "memory_mib,utilization_percent,temperature_c": "2504, 38, 82"
+  },
+  {
+    "elapsed_seconds": 489.0,
+    "memory_mib,utilization_percent,temperature_c": "2504, 47, 84"
+  },
+  {
+    "elapsed_seconds": 491.06,
+    "memory_mib,utilization_percent,temperature_c": "2504, 46, 86"
+  },
+  {
+    "elapsed_seconds": 493.14,
+    "memory_mib,utilization_percent,temperature_c": "2504, 49, 84"
+  },
+  {
+    "elapsed_seconds": 495.22,
+    "memory_mib,utilization_percent,temperature_c": "2504, 46, 84"
+  },
+  {
+    "elapsed_seconds": 497.28,
+    "memory_mib,utilization_percent,temperature_c": "2504, 49, 85"
+  },
+  {
+    "elapsed_seconds": 499.34,
+    "memory_mib,utilization_percent,temperature_c": "2504, 20, 84"
+  },
+  {
+    "elapsed_seconds": 501.42,
+    "memory_mib,utilization_percent,temperature_c": "2504, 35, 83"
+  },
+  {
+    "elapsed_seconds": 503.5,
+    "memory_mib,utilization_percent,temperature_c": "2504, 48, 85"
+  },
+  {
+    "elapsed_seconds": 505.58,
+    "memory_mib,utilization_percent,temperature_c": "2504, 36, 84"
+  },
+  {
+    "elapsed_seconds": 507.64,
+    "memory_mib,utilization_percent,temperature_c": "2504, 65, 85"
+  },
+  {
+    "elapsed_seconds": 509.72,
+    "memory_mib,utilization_percent,temperature_c": "2504, 28, 84"
+  },
+  {
+    "elapsed_seconds": 511.8,
+    "memory_mib,utilization_percent,temperature_c": "2504, 41, 85"
+  },
+  {
+    "elapsed_seconds": 513.88,
+    "memory_mib,utilization_percent,temperature_c": "2504, 41, 85"
+  },
+  {
+    "elapsed_seconds": 515.95,
+    "memory_mib,utilization_percent,temperature_c": "2504, 41, 85"
+  },
+  {
+    "elapsed_seconds": 518.02,
+    "memory_mib,utilization_percent,temperature_c": "2504, 51, 87"
+  },
+  {
+    "elapsed_seconds": 520.08,
+    "memory_mib,utilization_percent,temperature_c": "2504, 36, 85"
+  },
+  {
+    "elapsed_seconds": 522.17,
+    "memory_mib,utilization_percent,temperature_c": "2504, 45, 85"
+  },
+  {
+    "elapsed_seconds": 524.27,
+    "memory_mib,utilization_percent,temperature_c": "2504, 51, 89"
+  },
+  {
+    "elapsed_seconds": 526.34,
+    "memory_mib,utilization_percent,temperature_c": "2504, 43, 85"
+  },
+  {
+    "elapsed_seconds": 528.41,
+    "memory_mib,utilization_percent,temperature_c": "2504, 33, 86"
+  },
+  {
+    "elapsed_seconds": 530.49,
+    "memory_mib,utilization_percent,temperature_c": "2504, 30, 85"
+  },
+  {
+    "elapsed_seconds": 532.55,
+    "memory_mib,utilization_percent,temperature_c": "2504, 48, 85"
+  },
+  {
+    "elapsed_seconds": 534.62,
+    "memory_mib,utilization_percent,temperature_c": "2504, 66, 85"
+  },
+  {
+    "elapsed_seconds": 536.69,
+    "memory_mib,utilization_percent,temperature_c": "2504, 46, 86"
+  },
+  {
+    "elapsed_seconds": 538.75,
+    "memory_mib,utilization_percent,temperature_c": "2504, 22, 84"
+  },
+  {
+    "elapsed_seconds": 540.84,
+    "memory_mib,utilization_percent,temperature_c": "2504, 39, 86"
+  },
+  {
+    "elapsed_seconds": 542.92,
+    "memory_mib,utilization_percent,temperature_c": "2504, 32, 85"
+  },
+  {
+    "elapsed_seconds": 545.0,
+    "memory_mib,utilization_percent,temperature_c": "2504, 49, 87"
+  },
+  {
+    "elapsed_seconds": 547.08,
+    "memory_mib,utilization_percent,temperature_c": "2504, 37, 84"
+  },
+  {
+    "elapsed_seconds": 549.16,
+    "memory_mib,utilization_percent,temperature_c": "2504, 60, 86"
+  },
+  {
+    "elapsed_seconds": 551.24,
+    "memory_mib,utilization_percent,temperature_c": "2504, 49, 85"
+  },
+  {
+    "elapsed_seconds": 553.3,
+    "memory_mib,utilization_percent,temperature_c": "2504, 45, 85"
+  },
+  {
+    "elapsed_seconds": 555.38,
+    "memory_mib,utilization_percent,temperature_c": "2504, 37, 85"
+  },
+  {
+    "elapsed_seconds": 557.45,
+    "memory_mib,utilization_percent,temperature_c": "2504, 36, 86"
+  },
+  {
+    "elapsed_seconds": 559.53,
+    "memory_mib,utilization_percent,temperature_c": "2504, 56, 85"
+  },
+  {
+    "elapsed_seconds": 561.61,
+    "memory_mib,utilization_percent,temperature_c": "2504, 46, 86"
+  },
+  {
+    "elapsed_seconds": 563.67,
+    "memory_mib,utilization_percent,temperature_c": "2504, 50, 85"
+  },
+  {
+    "elapsed_seconds": 565.77,
+    "memory_mib,utilization_percent,temperature_c": "2504, 34, 86"
+  },
+  {
+    "elapsed_seconds": 567.84,
+    "memory_mib,utilization_percent,temperature_c": "2504, 43, 85"
+  },
+  {
+    "elapsed_seconds": 569.92,
+    "memory_mib,utilization_percent,temperature_c": "2504, 30, 84"
+  },
+  {
+    "elapsed_seconds": 572.05,
+    "memory_mib,utilization_percent,temperature_c": "2504, 12, 82"
+  },
+  {
+    "elapsed_seconds": 574.12,
+    "memory_mib,utilization_percent,temperature_c": "2504, 45, 86"
+  },
+  {
+    "elapsed_seconds": 576.19,
+    "memory_mib,utilization_percent,temperature_c": "2504, 48, 84"
+  },
+  {
+    "elapsed_seconds": 578.27,
+    "memory_mib,utilization_percent,temperature_c": "2504, 35, 84"
+  },
+  {
+    "elapsed_seconds": 580.34,
+    "memory_mib,utilization_percent,temperature_c": "2504, 19, 84"
+  },
+  {
+    "elapsed_seconds": 582.42,
+    "memory_mib,utilization_percent,temperature_c": "2504, 18, 84"
+  },
+  {
+    "elapsed_seconds": 584.5,
+    "memory_mib,utilization_percent,temperature_c": "2504, 43, 85"
+  },
+  {
+    "elapsed_seconds": 586.58,
+    "memory_mib,utilization_percent,temperature_c": "2504, 49, 84"
+  },
+  {
+    "elapsed_seconds": 588.66,
+    "memory_mib,utilization_percent,temperature_c": "2504, 44, 87"
+  },
+  {
+    "elapsed_seconds": 590.74,
+    "memory_mib,utilization_percent,temperature_c": "2504, 51, 87"
+  },
+  {
+    "elapsed_seconds": 592.8,
+    "memory_mib,utilization_percent,temperature_c": "2504, 62, 86"
+  },
+  {
+    "elapsed_seconds": 594.88,
+    "memory_mib,utilization_percent,temperature_c": "2504, 49, 85"
+  },
+  {
+    "elapsed_seconds": 596.94,
+    "memory_mib,utilization_percent,temperature_c": "2504, 42, 86"
+  },
+  {
+    "elapsed_seconds": 599.03,
+    "memory_mib,utilization_percent,temperature_c": "2504, 33, 85"
+  },
+  {
+    "elapsed_seconds": 601.12,
+    "memory_mib,utilization_percent,temperature_c": "2504, 24, 84"
+  },
+  {
+    "elapsed_seconds": 603.2,
+    "memory_mib,utilization_percent,temperature_c": "2504, 20, 84"
+  },
+  {
+    "elapsed_seconds": 605.28,
+    "memory_mib,utilization_percent,temperature_c": "2504, 43, 85"
+  },
+  {
+    "elapsed_seconds": 607.36,
+    "memory_mib,utilization_percent,temperature_c": "2504, 32, 85"
+  },
+  {
+    "elapsed_seconds": 609.44,
+    "memory_mib,utilization_percent,temperature_c": "2504, 25, 85"
+  },
+  {
+    "elapsed_seconds": 611.52,
+    "memory_mib,utilization_percent,temperature_c": "2504, 37, 85"
+  },
+  {
+    "elapsed_seconds": 613.58,
+    "memory_mib,utilization_percent,temperature_c": "2504, 41, 84"
+  },
+  {
+    "elapsed_seconds": 615.66,
+    "memory_mib,utilization_percent,temperature_c": "2504, 47, 87"
+  },
+  {
+    "elapsed_seconds": 617.74,
+    "memory_mib,utilization_percent,temperature_c": "2504, 65, 84"
+  },
+  {
+    "elapsed_seconds": 619.81,
+    "memory_mib,utilization_percent,temperature_c": "2504, 48, 87"
+  },
+  {
+    "elapsed_seconds": 621.88,
+    "memory_mib,utilization_percent,temperature_c": "2504, 37, 87"
+  },
+  {
+    "elapsed_seconds": 623.95,
+    "memory_mib,utilization_percent,temperature_c": "2504, 41, 87"
+  },
+  {
+    "elapsed_seconds": 626.06,
+    "memory_mib,utilization_percent,temperature_c": "2504, 34, 87"
+  },
+  {
+    "elapsed_seconds": 628.16,
+    "memory_mib,utilization_percent,temperature_c": "2504, 43, 86"
+  },
+  {
+    "elapsed_seconds": 630.25,
+    "memory_mib,utilization_percent,temperature_c": "2504, 38, 86"
+  },
+  {
+    "elapsed_seconds": 632.33,
+    "memory_mib,utilization_percent,temperature_c": "2504, 43, 86"
+  },
+  {
+    "elapsed_seconds": 634.41,
+    "memory_mib,utilization_percent,temperature_c": "2504, 62, 86"
+  },
+  {
+    "elapsed_seconds": 636.49,
+    "memory_mib,utilization_percent,temperature_c": "2504, 34, 86"
+  },
+  {
+    "elapsed_seconds": 638.56,
+    "memory_mib,utilization_percent,temperature_c": "2504, 33, 85"
+  },
+  {
+    "elapsed_seconds": 640.66,
+    "memory_mib,utilization_percent,temperature_c": "2504, 42, 86"
+  },
+  {
+    "elapsed_seconds": 642.75,
+    "memory_mib,utilization_percent,temperature_c": "2504, 44, 84"
+  },
+  {
+    "elapsed_seconds": 644.83,
+    "memory_mib,utilization_percent,temperature_c": "2504, 41, 85"
+  },
+  {
+    "elapsed_seconds": 646.91,
+    "memory_mib,utilization_percent,temperature_c": "2504, 30, 85"
+  },
+  {
+    "elapsed_seconds": 648.99,
+    "memory_mib,utilization_percent,temperature_c": "2504, 51, 86"
+  },
+  {
+    "elapsed_seconds": 651.06,
+    "memory_mib,utilization_percent,temperature_c": "2504, 39, 86"
+  },
+  {
+    "elapsed_seconds": 653.14,
+    "memory_mib,utilization_percent,temperature_c": "2504, 44, 85"
+  },
+  {
+    "elapsed_seconds": 655.22,
+    "memory_mib,utilization_percent,temperature_c": "2504, 40, 85"
+  },
+  {
+    "elapsed_seconds": 657.3,
+    "memory_mib,utilization_percent,temperature_c": "2504, 53, 86"
+  },
+  {
+    "elapsed_seconds": 659.36,
+    "memory_mib,utilization_percent,temperature_c": "2504, 33, 85"
+  },
+  {
+    "elapsed_seconds": 661.45,
+    "memory_mib,utilization_percent,temperature_c": "2504, 39, 86"
+  },
+  {
+    "elapsed_seconds": 663.52,
+    "memory_mib,utilization_percent,temperature_c": "2504, 46, 86"
+  },
+  {
+    "elapsed_seconds": 665.61,
+    "memory_mib,utilization_percent,temperature_c": "2504, 18, 81"
+  },
+  {
+    "elapsed_seconds": 667.7,
+    "memory_mib,utilization_percent,temperature_c": "2504, 47, 81"
+  },
+  {
+    "elapsed_seconds": 669.8,
+    "memory_mib,utilization_percent,temperature_c": "2504, 18, 78"
+  },
+  {
+    "elapsed_seconds": 671.88,
+    "memory_mib,utilization_percent,temperature_c": "2504, 46, 77"
+  },
+  {
+    "elapsed_seconds": 673.97,
+    "memory_mib,utilization_percent,temperature_c": "2504, 29, 81"
+  },
+  {
+    "elapsed_seconds": 676.05,
+    "memory_mib,utilization_percent,temperature_c": "2504, 40, 82"
+  },
+  {
+    "elapsed_seconds": 678.12,
+    "memory_mib,utilization_percent,temperature_c": "2504, 23, 83"
+  },
+  {
+    "elapsed_seconds": 680.2,
+    "memory_mib,utilization_percent,temperature_c": "2504, 22, 82"
+  },
+  {
+    "elapsed_seconds": 682.27,
+    "memory_mib,utilization_percent,temperature_c": "2504, 39, 80"
+  },
+  {
+    "elapsed_seconds": 684.33,
+    "memory_mib,utilization_percent,temperature_c": "2504, 49, 82"
+  },
+  {
+    "elapsed_seconds": 686.42,
+    "memory_mib,utilization_percent,temperature_c": "2504, 40, 83"
+  },
+  {
+    "elapsed_seconds": 688.49,
+    "memory_mib,utilization_percent,temperature_c": "2504, 54, 85"
+  },
+  {
+    "elapsed_seconds": 690.56,
+    "memory_mib,utilization_percent,temperature_c": "2504, 57, 85"
+  },
+  {
+    "elapsed_seconds": 692.64,
+    "memory_mib,utilization_percent,temperature_c": "2504, 38, 85"
+  },
+  {
+    "elapsed_seconds": 694.74,
+    "memory_mib,utilization_percent,temperature_c": "2504, 49, 84"
+  },
+  {
+    "elapsed_seconds": 696.8,
+    "memory_mib,utilization_percent,temperature_c": "2504, 41, 84"
+  },
+  {
+    "elapsed_seconds": 698.88,
+    "memory_mib,utilization_percent,temperature_c": "2504, 62, 86"
+  },
+  {
+    "elapsed_seconds": 700.94,
+    "memory_mib,utilization_percent,temperature_c": "2504, 41, 87"
+  },
+  {
+    "elapsed_seconds": 703.0,
+    "memory_mib,utilization_percent,temperature_c": "2504, 68, 86"
+  },
+  {
+    "elapsed_seconds": 705.08,
+    "memory_mib,utilization_percent,temperature_c": "2504, 47, 85"
+  },
+  {
+    "elapsed_seconds": 707.17,
+    "memory_mib,utilization_percent,temperature_c": "2504, 42, 86"
+  },
+  {
+    "elapsed_seconds": 709.24,
+    "memory_mib,utilization_percent,temperature_c": "2504, 49, 84"
+  },
+  {
+    "elapsed_seconds": 711.31,
+    "memory_mib,utilization_percent,temperature_c": "2504, 65, 86"
+  },
+  {
+    "elapsed_seconds": 713.39,
+    "memory_mib,utilization_percent,temperature_c": "2504, 51, 85"
+  },
+  {
+    "elapsed_seconds": 715.45,
+    "memory_mib,utilization_percent,temperature_c": "2504, 37, 86"
+  },
+  {
+    "elapsed_seconds": 717.53,
+    "memory_mib,utilization_percent,temperature_c": "2504, 12, 82"
+  },
+  {
+    "elapsed_seconds": 719.61,
+    "memory_mib,utilization_percent,temperature_c": "2504, 24, 80"
+  },
+  {
+    "elapsed_seconds": 721.67,
+    "memory_mib,utilization_percent,temperature_c": "2504, 32, 82"
+  },
+  {
+    "elapsed_seconds": 723.75,
+    "memory_mib,utilization_percent,temperature_c": "2504, 21, 81"
+  },
+  {
+    "elapsed_seconds": 725.83,
+    "memory_mib,utilization_percent,temperature_c": "2504, 34, 84"
+  },
+  {
+    "elapsed_seconds": 727.91,
+    "memory_mib,utilization_percent,temperature_c": "2504, 35, 85"
+  },
+  {
+    "elapsed_seconds": 729.97,
+    "memory_mib,utilization_percent,temperature_c": "2504, 26, 83"
+  },
+  {
+    "elapsed_seconds": 732.05,
+    "memory_mib,utilization_percent,temperature_c": "2504, 44, 85"
+  },
+  {
+    "elapsed_seconds": 734.12,
+    "memory_mib,utilization_percent,temperature_c": "2504, 37, 83"
+  },
+  {
+    "elapsed_seconds": 736.19,
+    "memory_mib,utilization_percent,temperature_c": "2504, 41, 82"
+  },
+  {
+    "elapsed_seconds": 738.27,
+    "memory_mib,utilization_percent,temperature_c": "2504, 47, 85"
+  },
+  {
+    "elapsed_seconds": 740.34,
+    "memory_mib,utilization_percent,temperature_c": "2504, 27, 83"
+  },
+  {
+    "elapsed_seconds": 742.41,
+    "memory_mib,utilization_percent,temperature_c": "2504, 21, 82"
+  },
+  {
+    "elapsed_seconds": 744.49,
+    "memory_mib,utilization_percent,temperature_c": "2504, 41, 83"
+  },
+  {
+    "elapsed_seconds": 746.55,
+    "memory_mib,utilization_percent,temperature_c": "2504, 42, 84"
+  },
+  {
+    "elapsed_seconds": 748.61,
+    "memory_mib,utilization_percent,temperature_c": "2504, 31, 81"
+  },
+  {
+    "elapsed_seconds": 750.67,
+    "memory_mib,utilization_percent,temperature_c": "2504, 38, 84"
+  },
+  {
+    "elapsed_seconds": 752.75,
+    "memory_mib,utilization_percent,temperature_c": "2504, 34, 84"
+  },
+  {
+    "elapsed_seconds": 754.83,
+    "memory_mib,utilization_percent,temperature_c": "2504, 35, 82"
+  },
+  {
+    "elapsed_seconds": 756.89,
+    "memory_mib,utilization_percent,temperature_c": "2504, 31, 84"
+  },
+  {
+    "elapsed_seconds": 758.94,
+    "memory_mib,utilization_percent,temperature_c": "2504, 40, 83"
+  },
+  {
+    "elapsed_seconds": 761.02,
+    "memory_mib,utilization_percent,temperature_c": "2504, 33, 83"
+  },
+  {
+    "elapsed_seconds": 763.09,
+    "memory_mib,utilization_percent,temperature_c": "2504, 38, 83"
+  },
+  {
+    "elapsed_seconds": 765.14,
+    "memory_mib,utilization_percent,temperature_c": "2504, 32, 83"
+  },
+  {
+    "elapsed_seconds": 767.22,
+    "memory_mib,utilization_percent,temperature_c": "2504, 30, 83"
+  },
+  {
+    "elapsed_seconds": 769.3,
+    "memory_mib,utilization_percent,temperature_c": "2504, 31, 83"
+  },
+  {
+    "elapsed_seconds": 771.36,
+    "memory_mib,utilization_percent,temperature_c": "2504, 29, 83"
+  },
+  {
+    "elapsed_seconds": 773.42,
+    "memory_mib,utilization_percent,temperature_c": "2504, 36, 83"
+  },
+  {
+    "elapsed_seconds": 775.49,
+    "memory_mib,utilization_percent,temperature_c": "2504, 0, 80"
+  },
+  {
+    "elapsed_seconds": 777.56,
+    "memory_mib,utilization_percent,temperature_c": "2504, 31, 84"
+  },
+  {
+    "elapsed_seconds": 779.64,
+    "memory_mib,utilization_percent,temperature_c": "2504, 37, 84"
+  },
+  {
+    "elapsed_seconds": 781.69,
+    "memory_mib,utilization_percent,temperature_c": "2504, 33, 83"
+  },
+  {
+    "elapsed_seconds": 783.75,
+    "memory_mib,utilization_percent,temperature_c": "2504, 41, 83"
+  },
+  {
+    "elapsed_seconds": 785.81,
+    "memory_mib,utilization_percent,temperature_c": "2504, 36, 85"
+  },
+  {
+    "elapsed_seconds": 787.88,
+    "memory_mib,utilization_percent,temperature_c": "2504, 38, 83"
+  },
+  {
+    "elapsed_seconds": 789.94,
+    "memory_mib,utilization_percent,temperature_c": "2504, 36, 84"
+  },
+  {
+    "elapsed_seconds": 792.0,
+    "memory_mib,utilization_percent,temperature_c": "2504, 29, 86"
+  },
+  {
+    "elapsed_seconds": 794.06,
+    "memory_mib,utilization_percent,temperature_c": "2504, 29, 83"
+  },
+  {
+    "elapsed_seconds": 796.14,
+    "memory_mib,utilization_percent,temperature_c": "2504, 39, 85"
+  },
+  {
+    "elapsed_seconds": 798.22,
+    "memory_mib,utilization_percent,temperature_c": "2504, 32, 86"
+  },
+  {
+    "elapsed_seconds": 800.27,
+    "memory_mib,utilization_percent,temperature_c": "2504, 46, 85"
+  },
+  {
+    "elapsed_seconds": 802.33,
+    "memory_mib,utilization_percent,temperature_c": "2504, 35, 83"
+  },
+  {
+    "elapsed_seconds": 804.39,
+    "memory_mib,utilization_percent,temperature_c": "2504, 39, 84"
+  },
+  {
+    "elapsed_seconds": 806.47,
+    "memory_mib,utilization_percent,temperature_c": "2504, 33, 83"
+  },
+  {
+    "elapsed_seconds": 808.53,
+    "memory_mib,utilization_percent,temperature_c": "2504, 36, 84"
+  },
+  {
+    "elapsed_seconds": 810.59,
+    "memory_mib,utilization_percent,temperature_c": "2504, 35, 83"
+  },
+  {
+    "elapsed_seconds": 812.66,
+    "memory_mib,utilization_percent,temperature_c": "2504, 35, 83"
+  },
+  {
+    "elapsed_seconds": 814.74,
+    "memory_mib,utilization_percent,temperature_c": "2504, 30, 84"
+  },
+  {
+    "elapsed_seconds": 816.8,
+    "memory_mib,utilization_percent,temperature_c": "2504, 32, 82"
+  },
+  {
+    "elapsed_seconds": 818.86,
+    "memory_mib,utilization_percent,temperature_c": "2504, 37, 83"
+  },
+  {
+    "elapsed_seconds": 820.92,
+    "memory_mib,utilization_percent,temperature_c": "2504, 28, 83"
+  },
+  {
+    "elapsed_seconds": 822.99,
+    "memory_mib,utilization_percent,temperature_c": "2504, 38, 83"
+  },
+  {
+    "elapsed_seconds": 825.05,
+    "memory_mib,utilization_percent,temperature_c": "2504, 33, 84"
+  },
+  {
+    "elapsed_seconds": 827.11,
+    "memory_mib,utilization_percent,temperature_c": "2504, 9, 80"
+  },
+  {
+    "elapsed_seconds": 829.19,
+    "memory_mib,utilization_percent,temperature_c": "2504, 28, 82"
+  },
+  {
+    "elapsed_seconds": 831.25,
+    "memory_mib,utilization_percent,temperature_c": "2504, 31, 82"
+  },
+  {
+    "elapsed_seconds": 833.31,
+    "memory_mib,utilization_percent,temperature_c": "2504, 39, 83"
+  },
+  {
+    "elapsed_seconds": 835.39,
+    "memory_mib,utilization_percent,temperature_c": "2504, 30, 85"
+  },
+  {
+    "elapsed_seconds": 837.44,
+    "memory_mib,utilization_percent,temperature_c": "2504, 25, 84"
+  },
+  {
+    "elapsed_seconds": 839.52,
+    "memory_mib,utilization_percent,temperature_c": "2504, 29, 84"
+  },
+  {
+    "elapsed_seconds": 841.59,
+    "memory_mib,utilization_percent,temperature_c": "2504, 36, 85"
+  },
+  {
+    "elapsed_seconds": 843.66,
+    "memory_mib,utilization_percent,temperature_c": "2504, 53, 83"
+  },
+  {
+    "elapsed_seconds": 845.72,
+    "memory_mib,utilization_percent,temperature_c": "2504, 31, 83"
+  },
+  {
+    "elapsed_seconds": 847.78,
+    "memory_mib,utilization_percent,temperature_c": "2504, 39, 85"
+  },
+  {
+    "elapsed_seconds": 849.84,
+    "memory_mib,utilization_percent,temperature_c": "2504, 51, 85"
+  },
+  {
+    "elapsed_seconds": 851.92,
+    "memory_mib,utilization_percent,temperature_c": "2504, 36, 83"
+  },
+  {
+    "elapsed_seconds": 853.99,
+    "memory_mib,utilization_percent,temperature_c": "2504, 56, 84"
+  },
+  {
+    "elapsed_seconds": 856.06,
+    "memory_mib,utilization_percent,temperature_c": "2504, 33, 84"
+  },
+  {
+    "elapsed_seconds": 858.12,
+    "memory_mib,utilization_percent,temperature_c": "2504, 53, 82"
+  },
+  {
+    "elapsed_seconds": 860.2,
+    "memory_mib,utilization_percent,temperature_c": "2504, 41, 84"
+  },
+  {
+    "elapsed_seconds": 862.27,
+    "memory_mib,utilization_percent,temperature_c": "2504, 35, 83"
+  },
+  {
+    "elapsed_seconds": 864.33,
+    "memory_mib,utilization_percent,temperature_c": "2504, 29, 83"
+  },
+  {
+    "elapsed_seconds": 866.39,
+    "memory_mib,utilization_percent,temperature_c": "2504, 25, 83"
+  },
+  {
+    "elapsed_seconds": 868.45,
+    "memory_mib,utilization_percent,temperature_c": "2504, 26, 83"
+  },
+  {
+    "elapsed_seconds": 870.52,
+    "memory_mib,utilization_percent,temperature_c": "2504, 32, 83"
+  },
+  {
+    "elapsed_seconds": 872.58,
+    "memory_mib,utilization_percent,temperature_c": "2504, 32, 83"
+  },
+  {
+    "elapsed_seconds": 874.64,
+    "memory_mib,utilization_percent,temperature_c": "2504, 36, 83"
+  },
+  {
+    "elapsed_seconds": 876.7,
+    "memory_mib,utilization_percent,temperature_c": "2504, 20, 82"
+  },
+  {
+    "elapsed_seconds": 878.75,
+    "memory_mib,utilization_percent,temperature_c": "2504, 30, 84"
+  },
+  {
+    "elapsed_seconds": 880.83,
+    "memory_mib,utilization_percent,temperature_c": "2504, 49, 86"
+  },
+  {
+    "elapsed_seconds": 882.89,
+    "memory_mib,utilization_percent,temperature_c": "2504, 28, 83"
+  },
+  {
+    "elapsed_seconds": 884.95,
+    "memory_mib,utilization_percent,temperature_c": "2504, 39, 85"
+  },
+  {
+    "elapsed_seconds": 887.05,
+    "memory_mib,utilization_percent,temperature_c": "2504, 28, 83"
+  },
+  {
+    "elapsed_seconds": 889.12,
+    "memory_mib,utilization_percent,temperature_c": "2504, 31, 84"
+  },
+  {
+    "elapsed_seconds": 891.19,
+    "memory_mib,utilization_percent,temperature_c": "2504, 30, 83"
+  },
+  {
+    "elapsed_seconds": 893.25,
+    "memory_mib,utilization_percent,temperature_c": "2504, 35, 82"
+  },
+  {
+    "elapsed_seconds": 895.36,
+    "memory_mib,utilization_percent,temperature_c": "2504, 25, 83"
+  },
+  {
+    "elapsed_seconds": 897.42,
+    "memory_mib,utilization_percent,temperature_c": "2504, 47, 85"
+  },
+  {
+    "elapsed_seconds": 899.49,
+    "memory_mib,utilization_percent,temperature_c": "2504, 35, 83"
+  },
+  {
+    "elapsed_seconds": 901.55,
+    "memory_mib,utilization_percent,temperature_c": "2504, 35, 84"
+  },
+  {
+    "elapsed_seconds": 903.62,
+    "memory_mib,utilization_percent,temperature_c": "2504, 35, 84"
+  },
+  {
+    "elapsed_seconds": 905.69,
+    "memory_mib,utilization_percent,temperature_c": "2504, 28, 83"
+  },
+  {
+    "elapsed_seconds": 907.77,
+    "memory_mib,utilization_percent,temperature_c": "2504, 45, 84"
+  },
+  {
+    "elapsed_seconds": 909.83,
+    "memory_mib,utilization_percent,temperature_c": "2504, 0, 80"
+  },
+  {
+    "elapsed_seconds": 911.92,
+    "memory_mib,utilization_percent,temperature_c": "2504, 31, 83"
+  },
+  {
+    "elapsed_seconds": 914.02,
+    "memory_mib,utilization_percent,temperature_c": "2504, 49, 85"
+  },
+  {
+    "elapsed_seconds": 916.09,
+    "memory_mib,utilization_percent,temperature_c": "2504, 48, 85"
+  },
+  {
+    "elapsed_seconds": 918.17,
+    "memory_mib,utilization_percent,temperature_c": "2504, 36, 86"
+  },
+  {
+    "elapsed_seconds": 920.25,
+    "memory_mib,utilization_percent,temperature_c": "2504, 42, 85"
+  },
+  {
+    "elapsed_seconds": 922.31,
+    "memory_mib,utilization_percent,temperature_c": "2504, 34, 85"
+  },
+  {
+    "elapsed_seconds": 924.38,
+    "memory_mib,utilization_percent,temperature_c": "2504, 36, 86"
+  },
+  {
+    "elapsed_seconds": 926.45,
+    "memory_mib,utilization_percent,temperature_c": "2504, 46, 88"
+  },
+  {
+    "elapsed_seconds": 928.53,
+    "memory_mib,utilization_percent,temperature_c": "2504, 43, 84"
+  },
+  {
+    "elapsed_seconds": 930.59,
+    "memory_mib,utilization_percent,temperature_c": "2504, 45, 85"
+  },
+  {
+    "elapsed_seconds": 932.67,
+    "memory_mib,utilization_percent,temperature_c": "2504, 19, 83"
+  },
+  {
+    "elapsed_seconds": 934.75,
+    "memory_mib,utilization_percent,temperature_c": "2504, 60, 85"
+  },
+  {
+    "elapsed_seconds": 936.81,
+    "memory_mib,utilization_percent,temperature_c": "2504, 43, 87"
+  },
+  {
+    "elapsed_seconds": 938.89,
+    "memory_mib,utilization_percent,temperature_c": "2504, 45, 86"
+  },
+  {
+    "elapsed_seconds": 940.99,
+    "memory_mib,utilization_percent,temperature_c": "2504, 53, 86"
+  },
+  {
+    "elapsed_seconds": 943.08,
+    "memory_mib,utilization_percent,temperature_c": "2504, 42, 87"
+  },
+  {
+    "elapsed_seconds": 945.16,
+    "memory_mib,utilization_percent,temperature_c": "2504, 38, 87"
+  },
+  {
+    "elapsed_seconds": 947.22,
+    "memory_mib,utilization_percent,temperature_c": "2504, 41, 85"
+  },
+  {
+    "elapsed_seconds": 949.3,
+    "memory_mib,utilization_percent,temperature_c": "2504, 33, 86"
+  },
+  {
+    "elapsed_seconds": 951.38,
+    "memory_mib,utilization_percent,temperature_c": "2504, 9, 82"
+  },
+  {
+    "elapsed_seconds": 953.45,
+    "memory_mib,utilization_percent,temperature_c": "2504, 49, 84"
+  },
+  {
+    "elapsed_seconds": 955.58,
+    "memory_mib,utilization_percent,temperature_c": "2504, 13, 82"
+  },
+  {
+    "elapsed_seconds": 957.66,
+    "memory_mib,utilization_percent,temperature_c": "2504, 64, 86"
+  },
+  {
+    "elapsed_seconds": 959.74,
+    "memory_mib,utilization_percent,temperature_c": "2504, 48, 85"
+  },
+  {
+    "elapsed_seconds": 961.81,
+    "memory_mib,utilization_percent,temperature_c": "2504, 40, 84"
+  },
+  {
+    "elapsed_seconds": 963.89,
+    "memory_mib,utilization_percent,temperature_c": "2504, 37, 83"
+  },
+  {
+    "elapsed_seconds": 965.95,
+    "memory_mib,utilization_percent,temperature_c": "2504, 40, 86"
+  },
+  {
+    "elapsed_seconds": 968.03,
+    "memory_mib,utilization_percent,temperature_c": "2504, 48, 85"
+  },
+  {
+    "elapsed_seconds": 970.11,
+    "memory_mib,utilization_percent,temperature_c": "2504, 49, 85"
+  },
+  {
+    "elapsed_seconds": 972.19,
+    "memory_mib,utilization_percent,temperature_c": "2504, 50, 85"
+  },
+  {
+    "elapsed_seconds": 974.27,
+    "memory_mib,utilization_percent,temperature_c": "2504, 30, 86"
+  },
+  {
+    "elapsed_seconds": 976.34,
+    "memory_mib,utilization_percent,temperature_c": "2504, 35, 85"
+  },
+  {
+    "elapsed_seconds": 978.42,
+    "memory_mib,utilization_percent,temperature_c": "2504, 33, 84"
+  },
+  {
+    "elapsed_seconds": 980.5,
+    "memory_mib,utilization_percent,temperature_c": "2504, 39, 85"
+  },
+  {
+    "elapsed_seconds": 982.56,
+    "memory_mib,utilization_percent,temperature_c": "2504, 45, 85"
+  },
+  {
+    "elapsed_seconds": 984.62,
+    "memory_mib,utilization_percent,temperature_c": "2504, 28, 85"
+  },
+  {
+    "elapsed_seconds": 986.7,
+    "memory_mib,utilization_percent,temperature_c": "2504, 44, 86"
+  },
+  {
+    "elapsed_seconds": 988.78,
+    "memory_mib,utilization_percent,temperature_c": "2504, 35, 87"
+  },
+  {
+    "elapsed_seconds": 990.86,
+    "memory_mib,utilization_percent,temperature_c": "2504, 53, 86"
+  },
+  {
+    "elapsed_seconds": 992.97,
+    "memory_mib,utilization_percent,temperature_c": "2504, 22, 85"
+  },
+  {
+    "elapsed_seconds": 995.09,
+    "memory_mib,utilization_percent,temperature_c": "2504, 17, 84"
+  },
+  {
+    "elapsed_seconds": 997.17,
+    "memory_mib,utilization_percent,temperature_c": "2504, 39, 86"
+  },
+  {
+    "elapsed_seconds": 999.27,
+    "memory_mib,utilization_percent,temperature_c": "2504, 54, 85"
+  },
+  {
+    "elapsed_seconds": 1001.36,
+    "memory_mib,utilization_percent,temperature_c": "2504, 54, 87"
+  },
+  {
+    "elapsed_seconds": 1003.42,
+    "memory_mib,utilization_percent,temperature_c": "2504, 42, 88"
+  },
+  {
+    "elapsed_seconds": 1005.5,
+    "memory_mib,utilization_percent,temperature_c": "2504, 48, 86"
+  },
+  {
+    "elapsed_seconds": 1007.56,
+    "memory_mib,utilization_percent,temperature_c": "2504, 32, 85"
+  },
+  {
+    "elapsed_seconds": 1009.66,
+    "memory_mib,utilization_percent,temperature_c": "2504, 50, 86"
+  },
+  {
+    "elapsed_seconds": 1011.75,
+    "memory_mib,utilization_percent,temperature_c": "2504, 21, 83"
+  },
+  {
+    "elapsed_seconds": 1013.88,
+    "memory_mib,utilization_percent,temperature_c": "2504, 41, 85"
+  },
+  {
+    "elapsed_seconds": 1015.97,
+    "memory_mib,utilization_percent,temperature_c": "2504, 35, 84"
+  },
+  {
+    "elapsed_seconds": 1018.06,
+    "memory_mib,utilization_percent,temperature_c": "2504, 40, 87"
+  },
+  {
+    "elapsed_seconds": 1020.14,
+    "memory_mib,utilization_percent,temperature_c": "2504, 44, 84"
+  },
+  {
+    "elapsed_seconds": 1022.24,
+    "memory_mib,utilization_percent,temperature_c": "2504, 47, 85"
+  },
+  {
+    "elapsed_seconds": 1024.31,
+    "memory_mib,utilization_percent,temperature_c": "2504, 48, 85"
+  },
+  {
+    "elapsed_seconds": 1026.39,
+    "memory_mib,utilization_percent,temperature_c": "2504, 46, 87"
+  },
+  {
+    "elapsed_seconds": 1028.49,
+    "memory_mib,utilization_percent,temperature_c": "2504, 29, 85"
+  },
+  {
+    "elapsed_seconds": 1030.58,
+    "memory_mib,utilization_percent,temperature_c": "2504, 8, 83"
+  },
+  {
+    "elapsed_seconds": 1032.64,
+    "memory_mib,utilization_percent,temperature_c": "2504, 46, 85"
+  },
+  {
+    "elapsed_seconds": 1034.77,
+    "memory_mib,utilization_percent,temperature_c": "2504, 20, 83"
+  },
+  {
+    "elapsed_seconds": 1036.88,
+    "memory_mib,utilization_percent,temperature_c": "2504, 24, 79"
+  },
+  {
+    "elapsed_seconds": 1039.03,
+    "memory_mib,utilization_percent,temperature_c": "2504, 16, 79"
+  },
+  {
+    "elapsed_seconds": 1041.22,
+    "memory_mib,utilization_percent,temperature_c": "2504, 27, 77"
+  },
+  {
+    "elapsed_seconds": 1043.33,
+    "memory_mib,utilization_percent,temperature_c": "2504, 59, 77"
+  },
+  {
+    "elapsed_seconds": 1045.42,
+    "memory_mib,utilization_percent,temperature_c": "2504, 2, 77"
+  },
+  {
+    "elapsed_seconds": 1047.5,
+    "memory_mib,utilization_percent,temperature_c": "2504, 31, 82"
+  },
+  {
+    "elapsed_seconds": 1049.56,
+    "memory_mib,utilization_percent,temperature_c": "2504, 46, 85"
+  },
+  {
+    "elapsed_seconds": 1051.64,
+    "memory_mib,utilization_percent,temperature_c": "2504, 44, 84"
+  },
+  {
+    "elapsed_seconds": 1053.7,
+    "memory_mib,utilization_percent,temperature_c": "2504, 31, 85"
+  },
+  {
+    "elapsed_seconds": 1055.78,
+    "memory_mib,utilization_percent,temperature_c": "2504, 44, 85"
+  },
+  {
+    "elapsed_seconds": 1057.83,
+    "memory_mib,utilization_percent,temperature_c": "2504, 35, 85"
+  },
+  {
+    "elapsed_seconds": 1059.92,
+    "memory_mib,utilization_percent,temperature_c": "2504, 0, 79"
+  }
+]

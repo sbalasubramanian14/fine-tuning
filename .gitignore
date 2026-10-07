@@ -18,6 +18,10 @@ logs/
 __pycache__/
 *.pyc
 *.npz
+experiments/**/models/
+experiments/**/cache/
+experiments/**/artifacts/
+studio/artifacts/
 .env
 .env.*
 !.env.example

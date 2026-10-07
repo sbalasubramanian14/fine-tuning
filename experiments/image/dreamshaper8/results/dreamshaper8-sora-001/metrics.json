@@ -1,0 +1,34 @@
+{
+  "wall_seconds_including_trainer_launch": 1061.42,
+  "adapters": {
+    "sora-step00000100.safetensors": {
+      "steps": 100,
+      "finite": true,
+      "training_seconds": 227.642240524292
+    },
+    "sora-step00000200.safetensors": {
+      "steps": 200,
+      "finite": true,
+      "training_seconds": 489.4983310699463
+    },
+    "sora-step00000300.safetensors": {
+      "steps": 300,
+      "finite": true,
+      "training_seconds": 761.0449287891388
+    },
+    "sora-step00000400.safetensors": {
+      "steps": 400,
+      "finite": true,
+      "training_seconds": 1047.3423380851746
+    },
+    "sora.safetensors": {
+      "steps": 400,
+      "finite": true,
+      "training_seconds": 1047.491816520691
+    }
+  },
+  "gpu_samples": 512,
+  "sampled_max_total_device_vram_mib": 2504.0,
+  "sampled_max_temperature_c": 89.0,
+  "note": "nvidia-smi sampled every approximately two seconds; total device memory, not a CUDA allocator peak."
+}
