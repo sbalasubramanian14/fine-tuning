@@ -1,0 +1,2 @@
+# Keep all browser job data local, even if the root ignore rules change.
+/artifacts/

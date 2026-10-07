@@ -42,6 +42,11 @@ modification. Each generation runs in its own process so GPU memory is released
 between tests; one job runs at a time.
 
 Results and request history live in `studio/artifacts/jobs/` and stay out of Git.
+This includes every browser prompt, settings file, generated image, job log and
+saved test. Both the root and Studio ignore rules exclude the entire runtime
+folder. Browser jobs are never automatically exported into versioned experiment
+results. Only the app code and documentation are published; publishing an
+individual browser result requires a separate, explicit action.
 Downloaded base models and the Python environment also stay local. A fresh clone
 needs the environment setup and model downloads described in the root README.
 
@@ -94,6 +99,7 @@ be used after configuring a new isolated profile and dataset.
 ```powershell
 . .\scripts\common.ps1
 & $PythonExe studio/test_catalog.py
+& $PythonExe studio/test_local_storage.py
 ```
 
 Initial validation also ran real GPU comparisons for both models, standalone

@@ -21,7 +21,8 @@ __pycache__/
 experiments/**/models/
 experiments/**/cache/
 experiments/**/artifacts/
-studio/artifacts/
+# Browser prompts, settings, history, logs and generated media stay local.
+/studio/artifacts/
 .env
 .env.*
 !.env.example
