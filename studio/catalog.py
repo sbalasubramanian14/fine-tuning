@@ -49,6 +49,7 @@ def image_models():
                            {'id': 'steps', 'label': 'Steps', 'type': 'number', 'default': 28, 'min': 1, 'max': 60, 'step': 1},
                            {'id': 'guidance', 'label': 'Guidance', 'type': 'number', 'default': 7, 'min': 1, 'max': 15, 'step': 0.5},
                            {'id': 'size', 'label': 'Image size', 'type': 'select', 'default': '512x512', 'options': SIZES},
+                           {'id': 'image_filter', 'label': 'Image filter', 'type': 'select', 'default': 'On', 'options': ['On', 'Off']},
                            {'id': 'strength', 'label': 'LoRA strength', 'type': 'number', 'default': 0.8, 'min': 0, 'max': 2, 'step': 0.1}
                        ]})
     return models

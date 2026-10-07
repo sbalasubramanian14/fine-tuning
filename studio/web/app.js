@@ -79,6 +79,7 @@ function renderJob(job) {
   if (settings.seed !== undefined) parts.push(`Seed ${settings.seed}`);
   if (settings.steps !== undefined) parts.push(`${settings.steps} steps`);
   if (settings.size) parts.push(settings.size.replace('x', ' × '));
+  if (settings.image_filter === 'Off') parts.push('Image filter off');
   if (job.result?.generation_seconds !== undefined) parts.push(`${job.result.generation_seconds}s`);
   const summary = document.createElement('span'); summary.textContent = parts.join(' · ');
   const link = document.createElement('a'); link.href = `/api/jobs/${job.id}/files/result.json`; link.download = 'result.json'; link.className = 'download'; link.textContent = 'Settings JSON';

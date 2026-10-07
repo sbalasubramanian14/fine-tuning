@@ -15,6 +15,7 @@ class RequestTests(unittest.TestCase):
                 {'id': 'steps', 'label': 'Steps', 'type': 'number', 'default': 28, 'min': 1, 'max': 60, 'step': 1},
                 {'id': 'strength', 'label': 'Strength', 'type': 'number', 'default': .8, 'min': 0, 'max': 2, 'step': .1},
                 {'id': 'size', 'label': 'Size', 'type': 'select', 'default': '512x512', 'options': ['512x512']},
+                {'id': 'image_filter', 'label': 'Image filter', 'type': 'select', 'default': 'On', 'options': ['On', 'Off']},
                 {'id': 'negative', 'label': 'Negative', 'type': 'textarea', 'default': ''},
             ]}
         self.registry = patch.object(catalog, 'models', return_value=[self.model])
@@ -35,6 +36,12 @@ class RequestTests(unittest.TestCase):
             with self.subTest(adapter=adapter), self.assertRaises(ValueError):
                 self.request(mode='compare', adapter=adapter)
         self.assertEqual(self.request(mode='compare', adapter='own-adapter')['adapter'], 'own-adapter')
+
+    def test_image_filter_defaults_on_and_can_be_disabled(self):
+        self.assertEqual(self.request()['settings']['image_filter'], 'On')
+        self.assertEqual(self.request(settings={'image_filter': 'Off'})['settings']['image_filter'], 'Off')
+        with self.assertRaises(ValueError):
+            self.request(settings={'image_filter': 'unknown'})
 
     def test_numeric_boundaries(self):
         for key, value in [('steps', 0), ('steps', 61), ('steps', 2.5), ('steps', True),

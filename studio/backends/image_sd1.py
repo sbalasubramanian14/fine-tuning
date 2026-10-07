@@ -37,15 +37,18 @@ def run(request, output, emit):
         expected = source.get('weight_sha256', {}).get(key)
         if expected and expected != weights[key]:
             raise RuntimeError(f'Model integrity check failed: {component}')
-    pipe = StableDiffusionPipeline.from_pretrained(model, torch_dtype=torch.float16, local_files_only=True)
-    if pipe.safety_checker is None:
+    settings = request['settings']
+    filter_enabled = settings.get('image_filter', 'On') == 'On'
+    loader_options = {} if filter_enabled else {'safety_checker': None, 'requires_safety_checker': False}
+    pipe = StableDiffusionPipeline.from_pretrained(model, torch_dtype=torch.float16, local_files_only=True, **loader_options)
+    if filter_enabled and pipe.safety_checker is None:
         raise RuntimeError('The expected inference safety checker is missing')
     pipe.enable_model_cpu_offload()
     pipe.enable_vae_slicing()
-    settings = request['settings']
     width, height = map(int, settings['size'].split('x'))
     modes = ['base', 'lora'] if request['mode'] == 'compare' else ['lora' if request['adapter'] else 'base']
     metadata = {'request': request, 'model_source': source, 'weight_sha256': weights,
+                'image_filter_enabled': filter_enabled,
                 'scheduler': type(pipe.scheduler).__name__, 'scheduler_config': dict(pipe.scheduler.config),
                 'adapter_sha256': sha(local(request['adapter'])) if request['adapter'] else None,
                 'outputs': []}
@@ -67,6 +70,6 @@ def run(request, output, emit):
         filename = f'{mode}.png'
         result.images[0].save(output / filename)
         metadata['outputs'].append({'kind': 'image', 'label': label, 'file': filename,
-                                    'filtered': bool(result.nsfw_content_detected[0])})
+                                    'filtered': bool(result.nsfw_content_detected[0]) if result.nsfw_content_detected is not None else False})
     metadata['generation_seconds'] = round(time.monotonic() - started, 2)
     return metadata

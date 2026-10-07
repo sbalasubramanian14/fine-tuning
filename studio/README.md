@@ -22,6 +22,13 @@ The server binds to loopback and is intended for use on this computer.
    generates both with the same prompt, seed, scheduler and settings.
 4. Expand **Generation settings** to change the negative prompt, seed, steps,
    guidance, size or LoRA strength. A fixed seed makes comparisons reproducible.
+   **Image filter** defaults to **On**. Select **Off** to skip the bundled
+   Stable Diffusion safety checker for that job, then generate again. The checker
+   classifies the generated image, can produce false positives, and replaces
+   flagged images with black output. A previously hidden image cannot be recovered
+   from its saved black PNG; regenerate with the same prompt/settings/seed.
+   The selected filter setting is recorded in the result metadata and applies
+   to both images in a comparison. This changes Studio inference only.
 5. **Browse saved tests** reopens previous results. Download images or their
    **Settings JSON** to keep the precise prompt and model/adapter hashes.
 
