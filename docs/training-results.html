@@ -1,0 +1,44 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Sora checkpoint comparison</title>
+<style>body{font:16px system-ui;margin:32px;color:#222;background:#faf9f5}h1{font-size:28px}table{border-collapse:collapse}th,td{padding:10px;vertical-align:top;text-align:left;border-bottom:1px solid #ddd}td img{width:240px;height:240px;object-fit:contain}p{max-width:900px;line-height:1.6}.scroll{overflow:auto}.refs{display:flex;gap:16px;flex-wrap:wrap}.refs img{height:270px}a{color:#075c75}small{display:block;max-width:260px}</style>
+<h1>Sora: baseline and checkpoint comparison</h1><p>Four identical prompts; seed 42; 28 inference steps; guidance 7; 512×512. Adapter strength 0.8. The 100-step sweater image was blanked by the inference filter (confirmed on rerun). Click an image to inspect the original. <a href="training-results.md">Read the assessment</a>.</p>
+<div class="scroll"><table><thead><tr><th>Prompt</th>
+<th>Baseline</th>
+<th>100 steps</th>
+<th>200 steps</th>
+<th>300 steps</th>
+<th>400 steps</th>
+</tr></thead><tbody>
+<tr><th>Portrait<small>soraskychar, 1girl, adult woman, short teal hair, amber eyes, cream jacket, red scarf, portrait, neutral expression, white background, anime illustration</small></th>
+<td><a href="../outputs/baseline-20261007-233227-405483/01.png"><img src="../outputs/baseline-20261007-233227-405483/01.png" alt="Portrait, 0 steps" loading="lazy"></a></td>
+<td><a href="../outputs/lora-20261007-234751-618633/01.png"><img src="../outputs/lora-20261007-234751-618633/01.png" alt="Portrait, 100 steps" loading="lazy"></a></td>
+<td><a href="../outputs/lora-20261007-234835-953116/01.png"><img src="../outputs/lora-20261007-234835-953116/01.png" alt="Portrait, 200 steps" loading="lazy"></a></td>
+<td><a href="../outputs/lora-20261007-234919-156362/01.png"><img src="../outputs/lora-20261007-234919-156362/01.png" alt="Portrait, 300 steps" loading="lazy"></a></td>
+<td><a href="../outputs/lora-20261007-234708-190982/01.png"><img src="../outputs/lora-20261007-234708-190982/01.png" alt="Portrait, 400 steps" loading="lazy"></a></td>
+</tr>
+<tr><th>Mountain path<small>soraskychar, 1girl, adult woman, short teal hair, amber eyes, cream jacket, red scarf, full body, standing, mountain path, anime illustration</small></th>
+<td><a href="../outputs/baseline-20261007-233227-405483/02.png"><img src="../outputs/baseline-20261007-233227-405483/02.png" alt="Mountain path, 0 steps" loading="lazy"></a></td>
+<td><a href="../outputs/lora-20261007-234751-618633/02.png"><img src="../outputs/lora-20261007-234751-618633/02.png" alt="Mountain path, 100 steps" loading="lazy"></a></td>
+<td><a href="../outputs/lora-20261007-234835-953116/02.png"><img src="../outputs/lora-20261007-234835-953116/02.png" alt="Mountain path, 200 steps" loading="lazy"></a></td>
+<td><a href="../outputs/lora-20261007-234919-156362/02.png"><img src="../outputs/lora-20261007-234919-156362/02.png" alt="Mountain path, 300 steps" loading="lazy"></a></td>
+<td><a href="../outputs/lora-20261007-234708-190982/02.png"><img src="../outputs/lora-20261007-234708-190982/02.png" alt="Mountain path, 400 steps" loading="lazy"></a></td>
+</tr>
+<tr><th>Cafe<small>soraskychar, 1girl, adult woman, short teal hair, amber eyes, cream jacket, red scarf, sitting at a cafe, smiling, anime illustration</small></th>
+<td><a href="../outputs/baseline-20261007-233227-405483/03.png"><img src="../outputs/baseline-20261007-233227-405483/03.png" alt="Cafe, 0 steps" loading="lazy"></a></td>
+<td><a href="../outputs/lora-20261007-234751-618633/03.png"><img src="../outputs/lora-20261007-234751-618633/03.png" alt="Cafe, 100 steps" loading="lazy"></a></td>
+<td><a href="../outputs/lora-20261007-234835-953116/03.png"><img src="../outputs/lora-20261007-234835-953116/03.png" alt="Cafe, 200 steps" loading="lazy"></a></td>
+<td><a href="../outputs/lora-20261007-234919-156362/03.png"><img src="../outputs/lora-20261007-234919-156362/03.png" alt="Cafe, 300 steps" loading="lazy"></a></td>
+<td><a href="../outputs/lora-20261007-234708-190982/03.png"><img src="../outputs/lora-20261007-234708-190982/03.png" alt="Cafe, 400 steps" loading="lazy"></a></td>
+</tr>
+<tr><th>Blue sweater<small>soraskychar, 1girl, adult woman, short teal hair, amber eyes, blue sweater, no scarf, upper body, indoors, anime illustration</small></th>
+<td><a href="../outputs/baseline-20261007-233227-405483/04.png"><img src="../outputs/baseline-20261007-233227-405483/04.png" alt="Blue sweater, 0 steps" loading="lazy"></a></td>
+<td><a href="../outputs/lora-20261007-234751-618633/04.png"><img src="../outputs/lora-20261007-234751-618633/04.png" alt="Blue sweater, 100 steps" loading="lazy"></a></td>
+<td><a href="../outputs/lora-20261007-234835-953116/04.png"><img src="../outputs/lora-20261007-234835-953116/04.png" alt="Blue sweater, 200 steps" loading="lazy"></a></td>
+<td><a href="../outputs/lora-20261007-234919-156362/04.png"><img src="../outputs/lora-20261007-234919-156362/04.png" alt="Blue sweater, 300 steps" loading="lazy"></a></td>
+<td><a href="../outputs/lora-20261007-234708-190982/04.png"><img src="../outputs/lora-20261007-234708-190982/04.png" alt="Blue sweater, 400 steps" loading="lazy"></a></td>
+</tr>
+</tbody></table></div><h2>Additional matched solo portrait</h2><p>The same portrait prompt with <code>solo</code> added; seed 42, identical baseline/adapter settings.</p><table><tr><th>Baseline</th><th>400 steps, strength 0.8</th></tr><tr><td><a href="../outputs/baseline-20261007-235014-606857/01.png"><img src="../outputs/baseline-20261007-235014-606857/01.png" alt="Solo baseline"></a></td><td><a href="../outputs/lora-20261007-235034-613270/01.png"><img src="../outputs/lora-20261007-235034-613270/01.png" alt="Solo 400-step Sora"></a></td></tr></table><h2>Held-out references</h2><p>These images were excluded from training.</p><div class="refs">
+<a href="../data/validation/v01.png"><img src="../data/validation/v01.png" alt="Held-out v01"></a>
+<a href="../data/validation/v02.png"><img src="../data/validation/v02.png" alt="Held-out v02"></a>
+<a href="../data/validation/v03.png"><img src="../data/validation/v03.png" alt="Held-out v03"></a>
+<a href="../data/validation/v04.png"><img src="../data/validation/v04.png" alt="Held-out v04"></a>
+</div></html>

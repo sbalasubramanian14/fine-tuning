@@ -1,0 +1,16 @@
+{
+  "lora": "outputs\\sora-20261007-233343\\sora-step00000300.safetensors",
+  "scale": 0.8,
+  "seed": 42,
+  "prompts": [
+    "soraskychar, 1girl, adult woman, short teal hair, amber eyes, cream jacket, red scarf, portrait, neutral expression, white background, anime illustration",
+    "soraskychar, 1girl, adult woman, short teal hair, amber eyes, cream jacket, red scarf, full body, standing, mountain path, anime illustration",
+    "soraskychar, 1girl, adult woman, short teal hair, amber eyes, cream jacket, red scarf, sitting at a cafe, smiling, anime illustration",
+    "soraskychar, 1girl, adult woman, short teal hair, amber eyes, blue sweater, no scarf, upper body, indoors, anime illustration"
+  ],
+  "negative_prompt": "low quality, blurry, extra limbs, extra fingers, malformed hands, duplicate person, text, watermark",
+  "steps": 28,
+  "guidance_scale": 7.0,
+  "width": 512,
+  "height": 512
+}

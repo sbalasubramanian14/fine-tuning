@@ -1,0 +1,163 @@
+{
+  "character": {
+    "name": "Sora",
+    "trigger": "soraskychar",
+    "model_id": "hakurei/waifu-diffusion",
+    "model_revision": "342d18da939534326d8571b7a8b5195f43800db6",
+    "identity": "original adult anime sky courier, short teal bob haircut, amber eyes, cream utility jacket, red scarf, brown satchel, dark trousers, brown boots",
+    "negative_prompt": "low quality, blurry, extra limbs, extra fingers, malformed hands, duplicate person, text, watermark",
+    "evaluation_prompts": [
+      "soraskychar, 1girl, adult woman, short teal hair, amber eyes, cream jacket, red scarf, portrait, neutral expression, white background, anime illustration",
+      "soraskychar, 1girl, adult woman, short teal hair, amber eyes, cream jacket, red scarf, full body, standing, mountain path, anime illustration",
+      "soraskychar, 1girl, adult woman, short teal hair, amber eyes, cream jacket, red scarf, sitting at a cafe, smiling, anime illustration",
+      "soraskychar, 1girl, adult woman, short teal hair, amber eyes, blue sweater, no scarf, upper body, indoors, anime illustration"
+    ]
+  },
+  "model": {
+    "model_id": "hakurei/waifu-diffusion",
+    "revision": "342d18da939534326d8571b7a8b5195f43800db6"
+  },
+  "trainer_revision": "6e14642f3bc756cd947803eac0e7c9be4acdf964",
+  "training_images": [
+    {
+      "filename": "001.png",
+      "width": 1024,
+      "height": 1536,
+      "pixel_sha256": "eab8edde3f6b37ddf94b1f72a3098dbc26dfa18df5aaf8c98c63f0cf8075b61d",
+      "caption": "soraskychar, 1girl, adult woman, short teal hair, amber eyes, cream jacket, red scarf, portrait, front view, neutral expression, white background, anime illustration"
+    },
+    {
+      "filename": "002.png",
+      "width": 1024,
+      "height": 1536,
+      "pixel_sha256": "6e47de82cf728c97c17896176d0265ddacbee8e05b4748f864de327dead54bfd",
+      "caption": "soraskychar, 1girl, adult woman, short teal hair, amber eyes, cream jacket, red scarf, portrait, three-quarter view, smiling, pale blue background, anime illustration"
+    },
+    {
+      "filename": "003.png",
+      "width": 1024,
+      "height": 1536,
+      "pixel_sha256": "239985194ce4fd7aa592d02b15f7d9830df847d96aa4dcd822fe639e85060346",
+      "caption": "soraskychar, 1girl, adult woman, short teal hair, amber eyes, cream jacket, red scarf, portrait, side view, thoughtful expression, hand on chin, gray background, anime illustration"
+    },
+    {
+      "filename": "004.png",
+      "width": 1024,
+      "height": 1536,
+      "pixel_sha256": "c512a931397dcf0d19717f3125c261de1f2cd50fa045192decd7027678103351",
+      "caption": "soraskychar, 1girl, adult woman, short teal hair, amber eyes, cream jacket, red scarf, upper body, holding bag strap, standing, outdoors, stone street, anime illustration"
+    },
+    {
+      "filename": "005.png",
+      "width": 1024,
+      "height": 1536,
+      "pixel_sha256": "5d9368bc1632087e290e3e0ea93a5e94107215d5f8d37fa6e752f19a71519a0e",
+      "caption": "soraskychar, 1girl, adult woman, short teal hair, amber eyes, cream jacket, red scarf, full body, standing, front view, cream background, anime illustration"
+    },
+    {
+      "filename": "006.png",
+      "width": 1024,
+      "height": 1536,
+      "pixel_sha256": "a46b723398ea8e7266da17d5a01eafe65da903f7564c98a3e1b1f963e89d4571",
+      "caption": "soraskychar, 1girl, adult woman, short teal hair, amber eyes, cream jacket, red scarf, full body, walking, town square, outdoors, anime illustration"
+    },
+    {
+      "filename": "007.png",
+      "width": 1024,
+      "height": 1536,
+      "pixel_sha256": "1fa86dd1777cc01313f3b3a90f1d2decc19876532362937a41a71e3d56d1e8bf",
+      "caption": "soraskychar, 1girl, adult woman, short teal hair, amber eyes, cream jacket, red scarf, upper body, surprised expression, cloudy sky, outdoors, anime illustration"
+    },
+    {
+      "filename": "008.png",
+      "width": 1024,
+      "height": 1536,
+      "pixel_sha256": "1662002593a4f5c5ce00555de81fb2cd15e6ff80070983ffdd4ac22cd625742a",
+      "caption": "soraskychar, 1girl, adult woman, short teal hair, cream jacket, red scarf, upper body, sitting, laughing, closed eyes, garden, outdoors, anime illustration"
+    },
+    {
+      "filename": "009.png",
+      "width": 1024,
+      "height": 1536,
+      "pixel_sha256": "784943aa5960b44a854114a4fc0383bf5ddfc8c511b9da82d8bcc7c190de8688",
+      "caption": "soraskychar, 1girl, adult woman, short teal hair, amber eyes, cream jacket, red scarf, full body, sitting, wooden bench, outdoors, anime illustration"
+    },
+    {
+      "filename": "010.png",
+      "width": 1024,
+      "height": 1536,
+      "pixel_sha256": "cc8d9f16f6a835fe779d743d18de4f1f12f7b4f370bfb97c3b421c90b5d5181e",
+      "caption": "soraskychar, 1girl, adult woman, short teal hair, amber eyes, cream jacket, red scarf, full body, back view, looking over shoulder, balcony, outdoors, anime illustration"
+    },
+    {
+      "filename": "011.png",
+      "width": 1024,
+      "height": 1536,
+      "pixel_sha256": "6e2325f3241a465390033eb26dda8c87870abc720cf5dc000de37a2401504106",
+      "caption": "soraskychar, 1girl, adult woman, short teal hair, amber eyes, cream jacket, red scarf, upper body, holding envelope, standing, office, indoors, anime illustration"
+    },
+    {
+      "filename": "012.png",
+      "width": 1024,
+      "height": 1536,
+      "pixel_sha256": "20b0a27013ef2cdbb6b46326bdc7f0337732a20aab5cc1cf9ac9bae1e5bd4f7f",
+      "caption": "soraskychar, 1girl, adult woman, short teal hair, amber eyes, cream jacket, red scarf, full body, reaching, bookshelf, room, indoors, anime illustration"
+    },
+    {
+      "filename": "013.png",
+      "width": 1024,
+      "height": 1536,
+      "pixel_sha256": "b9d2f89d00adcf9d13894c5133db9c86205fe663a1a02c38bac12a2214b09384",
+      "caption": "soraskychar, 1girl, adult woman, short teal hair, amber eyes, cream jacket, red scarf, portrait, serious expression, evening lighting, dark background, anime illustration"
+    },
+    {
+      "filename": "014.png",
+      "width": 1024,
+      "height": 1536,
+      "pixel_sha256": "c531f30430fc8621c1def09dce051ca6e4ea769793291cb92ad8d57ca4920879",
+      "caption": "soraskychar, 1girl, adult woman, short teal hair, amber eyes, cream jacket, red scarf, full body, standing, hands on hips, hilltop, outdoors, anime illustration"
+    },
+    {
+      "filename": "015.png",
+      "width": 1024,
+      "height": 1536,
+      "pixel_sha256": "4859051959cdb8d6a25a88419083bb7671770cef93b337d20c495e01dac88987",
+      "caption": "soraskychar, 1girl, adult woman, short teal hair, amber eyes, cream jacket, red scarf, upper body, waving, smiling, train platform, outdoors, anime illustration"
+    },
+    {
+      "filename": "016.png",
+      "width": 1024,
+      "height": 1536,
+      "pixel_sha256": "d86a61f634e15b903e9215bff7223f6fba3e224532bb3fab34b019815ccd03aa",
+      "caption": "soraskychar, 1girl, adult woman, short teal hair, amber eyes, cream jacket, red scarf, full body, kneeling, adjusting boot, courtyard, outdoors, anime illustration"
+    },
+    {
+      "filename": "017.png",
+      "width": 1024,
+      "height": 1536,
+      "pixel_sha256": "a030f4dd2c9a0442586ec3befec31f5c431ee7f33ad29d3afcf141933b5d6723",
+      "caption": "soraskychar, 1girl, adult woman, short teal hair, amber eyes, portrait, neutral expression, blue sweater, gray background, anime illustration"
+    },
+    {
+      "filename": "018.png",
+      "width": 1024,
+      "height": 1536,
+      "pixel_sha256": "2edae78b9627137da20e409c56b4bc9cffa2e7a49f49bc37a24f7738db06d0ff",
+      "caption": "soraskychar, 1girl, adult woman, short teal hair, amber eyes, upper body, sitting, holding open book, looking at viewer, blue sweater, room, indoors, anime illustration"
+    },
+    {
+      "filename": "019.png",
+      "width": 1024,
+      "height": 1536,
+      "pixel_sha256": "8979d161d63ed6a70486fbca5bfdf2ae597d98387758cc51937f091623050396",
+      "caption": "soraskychar, 1girl, adult woman, short teal hair, amber eyes, full body, standing, arms folded, blue sweater, navy trousers, brown boots, lakeside, outdoors, anime illustration"
+    },
+    {
+      "filename": "020.png",
+      "width": 1024,
+      "height": 1536,
+      "pixel_sha256": "9ff8e360db61069352eada1d1717cc28d141cf2de9d6b12f35b28053bca68965",
+      "caption": "soraskychar, 1girl, adult woman, short teal hair, amber eyes, cream jacket, red scarf, upper body, holding bag strap, wind, bridge, outdoors, anime illustration"
+    }
+  ]
+}

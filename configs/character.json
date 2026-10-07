@@ -1,0 +1,14 @@
+{
+  "name": "Sora",
+  "trigger": "soraskychar",
+  "model_id": "hakurei/waifu-diffusion",
+  "model_revision": "342d18da939534326d8571b7a8b5195f43800db6",
+  "identity": "original adult anime sky courier, short teal bob haircut, amber eyes, cream utility jacket, red scarf, brown satchel, dark trousers, brown boots",
+  "negative_prompt": "low quality, blurry, extra limbs, extra fingers, malformed hands, duplicate person, text, watermark",
+  "evaluation_prompts": [
+    "soraskychar, 1girl, adult woman, short teal hair, amber eyes, cream jacket, red scarf, portrait, neutral expression, white background, anime illustration",
+    "soraskychar, 1girl, adult woman, short teal hair, amber eyes, cream jacket, red scarf, full body, standing, mountain path, anime illustration",
+    "soraskychar, 1girl, adult woman, short teal hair, amber eyes, cream jacket, red scarf, sitting at a cafe, smiling, anime illustration",
+    "soraskychar, 1girl, adult woman, short teal hair, amber eyes, blue sweater, no scarf, upper body, indoors, anime illustration"
+  ]
+}

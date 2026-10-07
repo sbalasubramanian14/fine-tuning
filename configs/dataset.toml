@@ -1,0 +1,20 @@
+[general]
+caption_extension = ".txt"
+shuffle_caption = true
+keep_tokens = 1
+
+[[datasets]]
+resolution = 512
+batch_size = 1
+enable_bucket = true
+min_bucket_reso = 256
+max_bucket_reso = 768
+bucket_reso_steps = 64
+bucket_no_upscale = true
+
+[[datasets.subsets]]
+image_dir = "data/train"
+num_repeats = 5
+flip_aug = false
+color_aug = false
+random_crop = false

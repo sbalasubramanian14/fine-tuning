@@ -1,0 +1,14 @@
+{
+  "id": "008",
+  "split": "train",
+  "image": "data/train/008.png",
+  "tool": "built-in imagegen",
+  "reference": "assets/sora-reference.png",
+  "prompt": "Use case: identity-preserve. Asset type: one standalone synthetic anime character dataset illustration. The attached image is a CHARACTER IDENTITY REFERENCE only. Generate a genuinely new composition of the SAME original adult female character Sora. Preserve her recognizable face, amber eyes, short dark-teal bob haircut, ordinary adult proportions, and clean anime ink linework with cel shading. Usual outfit unless explicitly changed below: cream utility jacket with brass buttons over a dark navy top, red scarf, brown crossbody satchel on her anatomical right hip, dark navy trousers, brown ankle boots. Bag strap crosses from her anatomical left shoulder. Do not mirror the accessories. Composition: Waist-up illustration laughing happily, eyes partially closed, green garden in background. Show only one character. Clear, readable anatomy. No text, watermark, grids, panels, duplicate characters, or multi-view character sheet. Do not reuse the original pose or background. The requested framing controls which clothing is visible.",
+  "caption": "soraskychar, 1girl, adult woman, short teal hair, cream jacket, red scarf, upper body, sitting, laughing, closed eyes, garden, outdoors, anime illustration",
+  "source_path": "C:\\Users\\sbala\\.codex\\generated_images\\01a1173b-18b2-7132-a1d0-0e3b2376beb8\\exec-4c2e047e-eabc-437a-a364-a83471737c57.png",
+  "review": "Accepted: consistent identity and outfit; laughing with closed eyes, seated pose. Caption adjusted.",
+  "width": 1024,
+  "height": 1536,
+  "pixel_sha256": "1662002593a4f5c5ce00555de81fb2cd15e6ff80070983ffdd4ac22cd625742a"
+}

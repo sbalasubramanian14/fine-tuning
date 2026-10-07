@@ -1,0 +1,13 @@
+{
+  "lora": null,
+  "scale": 0.8,
+  "seed": 42,
+  "prompts": [
+    "soraskychar, solo, 1girl, adult woman, short teal hair, amber eyes, cream jacket, red scarf, portrait, neutral expression, white background, anime illustration"
+  ],
+  "negative_prompt": "low quality, blurry, extra limbs, extra fingers, malformed hands, duplicate person, text, watermark",
+  "steps": 28,
+  "guidance_scale": 7.0,
+  "width": 512,
+  "height": 512
+}

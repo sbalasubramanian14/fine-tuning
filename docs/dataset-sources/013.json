@@ -1,0 +1,14 @@
+{
+  "id": "013",
+  "split": "train",
+  "image": "data/train/013.png",
+  "tool": "built-in imagegen",
+  "reference": "assets/sora-reference.png",
+  "prompt": "Use case: identity-preserve. Asset type: one standalone synthetic anime character dataset illustration. The attached image is a CHARACTER IDENTITY REFERENCE only. Generate a genuinely new composition of the SAME original adult female character Sora. Preserve her recognizable face, amber eyes, short dark-teal bob haircut, ordinary adult proportions, and clean anime ink linework with cel shading. Usual outfit unless explicitly changed below: cream utility jacket with brass buttons over a dark navy top, red scarf, brown shoulder satchel, dark navy trousers, brown ankle boots. Keep the satchel on her anatomical right hip, on the same side as the reference (viewer left in a frontal view), hanging from the same anatomical right shoulder as the reference. Do not switch the bag to the opposite hip or mirror the accessories. Composition: Head-and-shoulders portrait, serious determined expression, warm evening light, soft dark background. Show only one character. Clear, readable anatomy. No text, watermark, grids, panels, duplicate characters, or multi-view character sheet. Do not reuse the original pose or background. The requested framing controls which clothing is visible.",
+  "caption": "soraskychar, 1girl, adult woman, short teal hair, amber eyes, cream jacket, red scarf, portrait, serious expression, evening lighting, dark background, anime illustration",
+  "source_path": "C:\\Users\\sbala\\.codex\\generated_images\\01a1173b-18b2-7132-a1d0-0e3b2376beb8\\exec-27354288-0795-47ed-9454-7dec6a41d389.png",
+  "review": "Accepted: consistent face, teal bob, amber eyes, and outfit; readable anatomy and intended scene.",
+  "width": 1024,
+  "height": 1536,
+  "pixel_sha256": "b9d2f89d00adcf9d13894c5133db9c86205fe663a1a02c38bac12a2214b09384"
+}

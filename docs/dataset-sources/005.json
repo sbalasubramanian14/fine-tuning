@@ -1,0 +1,14 @@
+{
+  "id": "005",
+  "split": "train",
+  "image": "data/train/005.png",
+  "tool": "built-in imagegen",
+  "reference": "assets/sora-reference.png",
+  "prompt": "Use case: identity-preserve. Asset type: one standalone synthetic anime character dataset illustration. The attached image is a CHARACTER IDENTITY REFERENCE only. Generate a genuinely new composition of the SAME original adult female character Sora. Preserve her recognizable face, amber eyes, short dark-teal bob haircut, ordinary adult proportions, and clean anime ink linework with cel shading. Usual outfit unless explicitly changed below: cream utility jacket with brass buttons over a dark navy top, red scarf, brown shoulder satchel, dark navy trousers, brown ankle boots. Keep the satchel on her anatomical right hip, on the same side as the reference (viewer left in a frontal view), hanging from the same anatomical right shoulder as the reference. Do not switch the bag to the opposite hip or mirror the accessories. Composition: Full-body front-facing illustration standing naturally, both boots visible, plain cream background. Both arms relaxed at her sides. Her satchel must stay on the viewer LEFT hip (her anatomical RIGHT), with shoulder strap on the viewer LEFT shoulder, exactly as the original reference. Do NOT put the bag on the viewer right. Show only one character. Clear, readable anatomy. No text, watermark, grids, panels, duplicate characters, or multi-view character sheet. Do not reuse the original pose or background. The requested framing controls which clothing is visible.",
+  "caption": "soraskychar, 1girl, adult woman, short teal hair, amber eyes, cream jacket, red scarf, full body, standing, front view, cream background, anime illustration",
+  "source_path": "C:\\Users\\sbala\\.codex\\generated_images\\01a1173b-18b2-7132-a1d0-0e3b2376beb8\\exec-402100ce-6b4b-4e3c-824a-c6007ac5fbc5.png",
+  "review": "Accepted: consistent facial identity, hair, eye color, and outfit; pose and framing match the intended scene.",
+  "width": 1024,
+  "height": 1536,
+  "pixel_sha256": "5d9368bc1632087e290e3e0ea93a5e94107215d5f8d37fa6e752f19a71519a0e"
+}

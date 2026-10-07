@@ -1,0 +1,23 @@
+{
+  "lora": "outputs\\sora-20261007-233343\\sora-step00000100.safetensors",
+  "scale": 0.8,
+  "seed": 42,
+  "prompts": [
+    "soraskychar, 1girl, adult woman, short teal hair, amber eyes, blue sweater, no scarf, upper body, indoors, anime illustration"
+  ],
+  "negative_prompt": "low quality, blurry, extra limbs, extra fingers, malformed hands, duplicate person, text, watermark",
+  "steps": 28,
+  "guidance_scale": 7.0,
+  "width": 512,
+  "height": 512,
+  "model": {
+    "model_id": "hakurei/waifu-diffusion",
+    "revision": "342d18da939534326d8571b7a8b5195f43800db6"
+  },
+  "images": [
+    {
+      "file": "01.png",
+      "nsfw_content_detected": true
+    }
+  ]
+}
