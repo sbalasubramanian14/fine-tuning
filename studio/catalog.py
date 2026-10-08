@@ -85,7 +85,7 @@ def sdxl_models():
                           {'id': 'seed', 'label': 'Seed', 'type': 'number', 'default': 42, 'min': 0, 'max': 2147483647, 'step': 1},
                           {'id': 'steps', 'label': 'Steps', 'type': 'number', 'default': 28, 'min': 1, 'max': 60, 'step': 1},
                           {'id': 'guidance', 'label': 'Guidance', 'type': 'number', 'default': 5, 'min': 1, 'max': 15, 'step': .5},
-                          {'id': 'size', 'label': 'Image size', 'type': 'select', 'default': '768x768', 'options': ['768x768', '1024x1024', '768x1024', '1024x768']},
+                          {'id': 'size', 'label': 'Image size', 'type': 'select', 'default': '1024x1024', 'options': ['768x768', '1024x1024', '768x1024', '1024x768']},
                           {'id': 'memory_mode', 'label': 'Memory mode', 'type': 'select', 'default': 'Low VRAM', 'options': ['Balanced', 'Low VRAM']},
                       ]})
     return items

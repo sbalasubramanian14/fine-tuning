@@ -16,8 +16,12 @@ in ignored `models/model-source.json`. Models stay inside this experiment's own
 folder. Existing SD1.x models, adapters and datasets are not modified. Budget
 6.46 GiB for weights and at least 1 GiB additional working space.
 
-Refresh Studio and select **Stable Diffusion XL 1.0 · Base**. Begin at 768×768,
-28 steps, guidance 5. The UI also supports 1024×1024 and portrait/landscape sizes.
+Refresh Studio and select **Stable Diffusion XL 1.0 · Base**. Begin at 1024×1024,
+28 steps, guidance 5. The UI also supports 768×768 and portrait/landscape sizes.
+The default uses the native 1024-pixel size recommended in the
+[Diffusers SDXL guide](https://huggingface.co/docs/diffusers/api/pipelines/stable_diffusion/stable_diffusion_xl).
+768×768 remains a faster preview option; changing resolution does not guarantee
+correct faces, anatomy or subject counts.
 No LoRA or comparison mode is offered for this backend.
 
 **Low VRAM** is the default for the 6 GB RTX 4050. **Balanced** memory mode
