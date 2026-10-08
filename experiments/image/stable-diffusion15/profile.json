@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "id": "stable-diffusion15-base",
+  "type": "image",
+  "backend": "sd1_lora",
+  "model": {
+    "id": "stable-diffusion-v1-5/stable-diffusion-v1-5",
+    "revision": "451f4fe16113bff5a5d2269ed5ad43b0592e9a14",
+    "variant": "fp16",
+    "directory": "experiments/image/stable-diffusion15/models/base"
+  },
+  "character_config": "configs/character.json",
+  "training_config": "configs/train.toml",
+  "dataset_config": "configs/dataset.toml",
+  "dataset": {"train": "data/train", "validation": "data/validation", "min_train": 20, "min_validation": 4},
+  "artifact_root": "experiments/image/stable-diffusion15/artifacts",
+  "cache_root": "experiments/image/stable-diffusion15/cache",
+  "steps": 400,
+  "smoke_steps": 10,
+  "evaluation": {
+    "seed": 42, "steps": 28, "guidance_scale": 7.0,
+    "width": 512, "height": 512, "lora_scale": 0.8,
+    "checkpoints": [100, 200, 300, 400],
+    "solo_prompt": "a photograph of a mountain lake at sunrise, pine trees, soft golden light, detailed landscape"
+  }
+}
