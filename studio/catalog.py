@@ -52,14 +52,46 @@ def image_models():
                            {'id': 'steps', 'label': 'Steps', 'type': 'number', 'default': 28, 'min': 1, 'max': 60, 'step': 1},
                            {'id': 'guidance', 'label': 'Guidance', 'type': 'number', 'default': 7, 'min': 1, 'max': 15, 'step': 0.5},
                            {'id': 'size', 'label': 'Image size', 'type': 'select', 'default': '512x512', 'options': SIZES},
-                           {'id': 'image_filter', 'label': 'Image filter', 'type': 'select', 'default': 'On', 'options': ['On', 'Off']},
+                           {'id': 'image_filter', 'label': 'Image filter', 'type': 'select', 'default': 'Off', 'options': ['On', 'Off']},
                            {'id': 'strength', 'label': 'LoRA strength', 'type': 'number', 'default': 0.8, 'min': 0, 'max': 2, 'step': 0.1}
                        ]})
     return models
 
 
 # Register new modality-specific catalog providers and matching worker backends.
-PROVIDERS = [image_models]
+def sdxl_models():
+    items = []
+    for path in sorted((ROOT / 'experiments/image').glob('*/profile.json')):
+        profile = json.loads(path.read_text(encoding='utf-8'))
+        if profile.get('backend') != 'sdxl_base' or profile.get('type') != 'image':
+            continue
+        model = local(profile['model']['directory'])
+        source_path = model.parent / 'model-source.json'
+        ready = False
+        if source_path.is_file() and (model / 'model_index.json').is_file():
+            try:
+                source = json.loads(source_path.read_text(encoding='utf-8'))
+                hashes = source.get('weight_sha256', {})
+                ready = len(hashes) == 4 and all(
+                    local(f'{profile["model"]["directory"]}/{name}').is_file() for name in hashes)
+            except (ValueError, OSError):
+                ready = False
+        items.append({'id': profile['id'], 'label': profile['label'], 'type': 'image',
+                      'backend': 'image_sdxl', 'profile': path.relative_to(ROOT).as_posix(),
+                      'available': ready, 'adapters': [], 'default_prompt': profile['default_prompt'],
+                      'note': 'Base model only. Memory offloading may make generation slower.',
+                      'fields': [
+                          {'id': 'negative_prompt', 'label': 'Negative prompt', 'type': 'textarea', 'default': 'low quality, blurry, text, watermark'},
+                          {'id': 'seed', 'label': 'Seed', 'type': 'number', 'default': 42, 'min': 0, 'max': 2147483647, 'step': 1},
+                          {'id': 'steps', 'label': 'Steps', 'type': 'number', 'default': 28, 'min': 1, 'max': 60, 'step': 1},
+                          {'id': 'guidance', 'label': 'Guidance', 'type': 'number', 'default': 5, 'min': 1, 'max': 15, 'step': .5},
+                          {'id': 'size', 'label': 'Image size', 'type': 'select', 'default': '768x768', 'options': ['768x768', '1024x1024', '768x1024', '1024x768']},
+                          {'id': 'memory_mode', 'label': 'Memory mode', 'type': 'select', 'default': 'Low VRAM', 'options': ['Balanced', 'Low VRAM']},
+                      ]})
+    return items
+
+
+PROVIDERS = [image_models, sdxl_models]
 
 
 def models():

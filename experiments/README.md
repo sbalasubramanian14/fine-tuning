@@ -6,6 +6,7 @@ Separate model profiles and artifacts, with the original working pipeline preser
 | --- | --- | --- |
 | `image/dreamshaper8/` | Runnable SD1.x LoRA experiment | Captioned images, held-out images, pinned Diffusers SD1.x base, sd-scripts |
 | `image/stable-diffusion15/` | Original SD1.5 base profile | Separate pinned FP16 weights; base generation first, optional future Sora training |
+| `image/sdxl-base/` | SDXL Base inference only | Separate FP16 download launcher and Studio backend; no refiner, LoRA or training |
 | `image/waifu-diffusion-sora/` | Reference to completed experiment | Original files remain in `models/`, `data/`, `outputs/`, and `docs/` |
 | `text/` | Extension documentation | Tokenized text or instruction/response pairs, text-specific trainer and evaluation |
 | `video/` | Extension documentation | Clips/frame sequences and captions, temporal model trainer and evaluation |
@@ -48,6 +49,6 @@ Export a completed run into its versioned `results/` folder:
 
 The export includes adapters, configs, model/dataset manifests, GPU samples, and comparison images. It excludes base weights, source copies, latents, and raw training logs. Export refuses to overwrite a previous export.
 
-To add another compatible SD1.x image model, copy the DreamShaper profile into a new image folder, give it a unique id and dedicated model/cache/artifact paths, pin a revision, and select appropriate data and evaluation settings. This backend checks the architecture and requires fp16 Safetensors components and a safety checker. SDXL, Flux, text, video, and voice require a new backend. Add the backend dispatch explicitly in `run.py`; unsupported types fail before any downloads or training. Future backends should implement download, dataset validation/preparation, baseline, smoke, train, evaluate, and preserve/verify stages, with model-specific cache identity and reproducible manifests.
+To add another compatible SD1.x image model, copy the DreamShaper profile into a new image folder, give it a unique id and dedicated model/cache/artifact paths, pin a revision, and select appropriate data and evaluation settings. This backend checks the architecture and requires fp16 Safetensors components and a safety checker. SDXL training, Flux, text, video, and voice require a new training backend. SDXL Base inference has its own download launcher and Studio backend. Add training backend dispatch explicitly in `run.py`; unsupported types fail before any downloads or training. Future backends should implement download, dataset validation/preparation, baseline, smoke, train, evaluate, and preserve/verify stages, with model-specific cache identity and reproducible manifests.
 
 For a new image dataset, place it in the new experiment's own `data/train/` and `data/validation/` folders; use matching captions and a distinct character config. Update `dataset`, `character_config`, and any training/evaluation settings in that profile. Keep the original Sora files unchanged so its preservation checks remain useful. Model compatibility, hardware fit, licenses, caption accuracy, and held-out quality must be checked for each experiment.

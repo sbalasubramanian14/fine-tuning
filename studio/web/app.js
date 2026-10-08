@@ -23,12 +23,16 @@ function stateControls() {
   for (const input of $('fields').querySelectorAll('input,textarea,select')) input.disabled = busy;
   $('prompt').disabled = busy;
   $('example').disabled = busy;
+  $('delete-history').disabled = busy;
 }
 function configure() {
   const model = selected(); if (!model) return;
   $('adapter').replaceChildren(...model.adapters.map(a => option(a.id, a.label)));
-  if (!model.adapters.length) $('adapter').append(option('', 'No trained adapter found'));
-  $('model-note').textContent = model.available ? 'Local weights ready' : 'Model files are missing. Download this experiment first.';
+  if (!model.adapters.length) {
+    $('adapter').append(option('', 'Base model only'));
+    $('use-lora').checked = false;
+  }
+  $('model-note').textContent = model.available ? (model.note || 'Local weights ready') : 'Model files are missing. Download this experiment first.';
   $('type-label').textContent = `${model.type.toUpperCase()} WORKSPACE`;
   $('fields').replaceChildren();
   for (const field of model.fields) {
@@ -80,6 +84,7 @@ function renderJob(job) {
   if (settings.steps !== undefined) parts.push(`${settings.steps} steps`);
   if (settings.size) parts.push(settings.size.replace('x', ' × '));
   if (settings.image_filter === 'Off') parts.push('Image filter off');
+  if (job.result?.memory_mode_effective) parts.push(job.result.memory_mode_effective);
   if (job.result?.generation_seconds !== undefined) parts.push(`${job.result.generation_seconds}s`);
   const summary = document.createElement('span'); summary.textContent = parts.join(' · ');
   const link = document.createElement('a'); link.href = `/api/jobs/${job.id}/files/result.json`; link.download = 'result.json'; link.className = 'download'; link.textContent = 'Settings JSON';
@@ -113,6 +118,8 @@ $('clear').addEventListener('click', () => $('feed').replaceChildren());
 $('history-button').addEventListener('click', async () => {
   try {
     const jobs = (await api('/api/jobs')).jobs; $('history-list').replaceChildren();
+    $('history-status').textContent = '';
+    $('delete-history').disabled = busy || !jobs.length;
     if (!jobs.length) $('history-list').textContent = 'No saved tests yet.';
     for (const job of jobs) {
       const button = document.createElement('button'); button.className = 'history-item';
@@ -124,4 +131,21 @@ $('history-button').addEventListener('click', async () => {
   } catch (error) { message(error.message, true); }
 });
 $('close-history').addEventListener('click', () => $('history').close());
+$('delete-history').addEventListener('click', async () => {
+  if (busy || !window.confirm('Delete all saved tests? This permanently deletes their prompts, generated images, settings and logs from this computer.')) return;
+  $('delete-history').disabled = true;
+  try {
+    const result = await api('/api/jobs', { method: 'DELETE' });
+    $('history-list').replaceChildren('No saved tests yet.');
+    $('feed').replaceChildren();
+    configure();
+    $('prompt').value = '';
+    $('delete-history').disabled = true;
+    $('history-status').textContent = `Deleted ${result.deleted_jobs} saved tests and their local files.`;
+    message('Saved test history and generated files deleted.');
+  } catch (error) {
+    $('history-status').textContent = error.message;
+    $('delete-history').disabled = busy;
+  }
+});
 refresh().catch(error => message(error.message, true));

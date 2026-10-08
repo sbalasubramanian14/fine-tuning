@@ -4,8 +4,9 @@ import sys
 from pathlib import Path
 
 from backends.image_sd1 import run as image_run
+from backends.image_sdxl import run as sdxl_run
 
-BACKENDS = {'image_sd1': image_run}
+BACKENDS = {'image_sd1': image_run, 'image_sdxl': sdxl_run}
 
 
 def emit(event):

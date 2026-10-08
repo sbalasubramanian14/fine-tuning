@@ -3,6 +3,8 @@ import argparse
 import json
 import mimetypes
 import re
+import shutil
+import stat
 import subprocess
 import sys
 import threading
@@ -64,7 +66,7 @@ class Controller:
                 code = process.wait()
             if code:
                 lines = (output / 'worker.log').read_text(encoding='utf-8').splitlines()
-                raise RuntimeError(next((line for line in reversed(lines) if 'Error:' in line), 'Generation failed; inspect worker.log'))
+                raise RuntimeError(next((line for line in reversed(lines) if 'Error:' in line), f'Generation worker exited with code {code}; inspect worker.log'))
             result = json.loads((output / 'result.json').read_text(encoding='utf-8'))
             state.update(status='done', message='Ready', progress=100, result=result)
         except Exception as error:
@@ -82,6 +84,29 @@ class Controller:
         if state['status'] in {'queued', 'running'} and job_id != self.active:
             state.update(status='error', message='Server restarted before this request finished')
         return state
+
+    def delete_all(self):
+        with self.lock:
+            if self.active:
+                raise BlockingIOError('Wait for the current generation to finish before deleting saved tests.')
+            expected = STUDIO / 'artifacts/jobs'
+            root = JOBS.resolve()
+            if root != expected.absolute() or not root.is_relative_to(ROOT):
+                raise ValueError('Job storage is outside the expected local folder')
+            if not root.exists():
+                return 0
+            entries = [p for p in root.iterdir() if re.fullmatch(r'[0-9a-f]{32}', p.name)]
+            # Validate every target before any recursive deletion. Never follow
+            # symlinks or Windows junctions into another directory.
+            for path in entries:
+                attributes = getattr(path.lstat(), 'st_file_attributes', 0)
+                if (not path.is_dir() or path.is_symlink() or
+                        attributes & stat.FILE_ATTRIBUTE_REPARSE_POINT or
+                        path.resolve().parent != root):
+                    raise ValueError('Saved test contains an unexpected storage path')
+            for path in entries:
+                shutil.rmtree(path)
+            return len(entries)
 
 
 controller = Controller()
@@ -161,6 +186,20 @@ class Handler(BaseHTTPRequestHandler):
             self.respond(409, {'error': str(error)})
         except (ValueError, KeyError, TypeError) as error:
             self.respond(400, {'error': str(error)})
+
+    def do_DELETE(self):
+        if not self.local_request():
+            return
+        if self.path != '/api/jobs':
+            return self.respond(404, {'error': 'Not found'})
+        try:
+            self.respond(200, {'deleted_jobs': controller.delete_all()})
+        except BlockingIOError as error:
+            self.respond(409, {'error': str(error)})
+        except ValueError as error:
+            self.respond(400, {'error': str(error)})
+        except OSError:
+            self.respond(500, {'error': 'Some saved files could not be deleted. Close any program using them and retry.'})
 
 
 if __name__ == '__main__':

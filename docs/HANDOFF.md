@@ -1,5 +1,35 @@
 # Sora training handoff
 
+## SDXL Base and history deletion added 2026-10-09
+
+SDXL Base is downloaded and integrated into Studio with a separate inference-only
+backend. Profile: `experiments/image/sdxl-base/profile.json`, revision
+`462165984030d82259a11f4367a4eed129e94a7b`. Four FP16 components are verified against
+source hashes. Use `experiments/image/sdxl-base/download.ps1` to download on a clone;
+the shared SD1.x training runner does not support this profile. No refiner or LoRA.
+
+**Low VRAM** is the UI default for SDXL on the RTX 4050. Sequential CPU offloading
+and VAE tiling passed 768×768/28 steps (77.09 s) and 1024×1024/8 steps (29.47 s).
+Balanced exceeded GPU memory in the first test; the automatic fallback passed.
+A separate Balanced 1024 attempt failed after denoising without a Python traceback;
+do not recommend that mode on this machine. See the SDXL README for measured
+PyTorch peak memory and limits of the smoke tests. Progress now uses structured
+events without overlapping console progress bars.
+
+Image filters default to **Off** for new SD1.x Studio requests, per user preference.
+SDXL has no bundled checker and no filter control is offered. Training/evaluation
+scripts and historical results remain unchanged.
+
+History now has **Delete all saved tests**, with confirmation and a DELETE API.
+It removes all job folders (including older entries beyond the displayed history
+limit), clears prompts/images from the UI and resets settings. Deletion is blocked
+during generation, validates storage boundaries, and preserves model/adapter/result
+folders. Four deletion tests passed using isolated fixtures; real saved history
+was not deleted. Seven request tests and two Git-exclusion tests passed. Python
+and browser JavaScript syntax checks passed. The 221 original preservation hashes,
+plus the four existing DreamShaper and four SD1.5 weight hashes, still match.
+Browser job data and downloaded weights remain excluded from Git.
+
 ## Stable Diffusion 1.5 base added 2026-10-08
 
 Profile: `experiments/image/stable-diffusion15/profile.json`, pinned mirror revision

@@ -17,14 +17,16 @@ The server binds to loopback and is intended for use on this computer.
 
 1. Select **DreamShaper 8**, **Waifu Diffusion 1.3** or **Stable Diffusion 1.5**
    (after downloading its base weights). SD1.5 initially has no trained adapter.
+   **Stable Diffusion XL 1.0 · Base** is available after its separate
+   [download](../experiments/image/sdxl-base/README.md); it supports base generation only.
 2. Uncheck **Use LoRA adapter** for the original base model. Check it and select
    a checkpoint for the trained character. Start with Final, strength **0.8**.
 3. Enter an image prompt and click **Generate image**. **Compare base + LoRA**
    generates both with the same prompt, seed, scheduler and settings.
 4. Expand **Generation settings** to change the negative prompt, seed, steps,
    guidance, size or LoRA strength. A fixed seed makes comparisons reproducible.
-   **Image filter** defaults to **On**. Select **Off** to skip the bundled
-   Stable Diffusion safety checker for that job, then generate again. The checker
+   **Image filter** defaults to **Off**, as requested. Select **On** to enable the bundled
+   SD1.x safety checker for that job, then generate again. The checker
    classifies the generated image, can produce false positives, and replaces
    flagged images with black output. A previously hidden image cannot be recovered
    from its saved black PNG; regenerate with the same prompt/settings/seed.
@@ -32,6 +34,10 @@ The server binds to loopback and is intended for use on this computer.
    to both images in a comparison. This changes Studio inference only.
 5. **Browse saved tests** reopens previous results. Download images or their
    **Settings JSON** to keep the precise prompt and model/adapter hashes.
+   **Delete all saved tests** in that window permanently removes every job's
+   prompts, generated images, metadata and logs from local storage and clears the
+   UI. Confirm the deletion when prompted. It is blocked during generation and
+   does not remove model weights, adapters or versioned experiment results.
 
 Example:
 
@@ -61,8 +67,10 @@ needs the environment setup and model downloads described in the root README.
 ## Extend the workspace
 
 Working now: SD1.x image generation using local Diffusers model folders and
-sd-scripts LoRAs. DreamShaper and the preserved Waifu experiment are discovered
-from `experiments/image/*/profile.json`.
+sd-scripts LoRAs, plus SDXL Base generation without adapters. All image profiles
+are discovered from `experiments/image/*/profile.json`. SDXL uses its own backend,
+768/1024-pixel options, memory offloading and VAE tiling. Its base has no bundled
+image safety checker. The older SD1.x models expose an optional checker, off by default.
 
 To support another architecture or modality:
 
@@ -108,6 +116,7 @@ be used after configuring a new isolated profile and dataset.
 . .\scripts\common.ps1
 & $PythonExe studio/test_catalog.py
 & $PythonExe studio/test_local_storage.py
+& $PythonExe studio/test_delete_history.py
 ```
 
 Initial validation also ran real GPU comparisons for both models, standalone

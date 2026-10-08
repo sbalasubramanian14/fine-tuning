@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "id": "sdxl-base",
+  "label": "Stable Diffusion XL 1.0 \u00b7 Base",
+  "type": "image",
+  "backend": "sdxl_base",
+  "model": {
+    "id": "stabilityai/stable-diffusion-xl-base-1.0",
+    "revision": "462165984030d82259a11f4367a4eed129e94a7b",
+    "variant": "fp16",
+    "directory": "experiments/image/sdxl-base/models/base"
+  },
+  "default_prompt": "a photograph of a mountain lake at sunrise, pine trees, soft golden light, detailed landscape"
+}

@@ -38,11 +38,12 @@ def run(request, output, emit):
         if expected and expected != weights[key]:
             raise RuntimeError(f'Model integrity check failed: {component}')
     settings = request['settings']
-    filter_enabled = settings.get('image_filter', 'On') == 'On'
+    filter_enabled = settings.get('image_filter', 'Off') == 'On'
     loader_options = {} if filter_enabled else {'safety_checker': None, 'requires_safety_checker': False}
     pipe = StableDiffusionPipeline.from_pretrained(model, torch_dtype=torch.float16, local_files_only=True, **loader_options)
     if filter_enabled and pipe.safety_checker is None:
         raise RuntimeError('The expected inference safety checker is missing')
+    pipe.set_progress_bar_config(disable=True)
     pipe.enable_model_cpu_offload()
     pipe.enable_vae_slicing()
     width, height = map(int, settings['size'].split('x'))

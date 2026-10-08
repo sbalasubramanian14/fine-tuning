@@ -21,8 +21,8 @@
       <p class="hint">Prompts, settings, and outputs are saved locally.</p>
     </aside>
     <main>
-      <div class="main-head"><div><span class="eyebrow" id="type-label">IMAGE WORKSPACE</span><h1>Try a prompt.<br>See what the adapter changes.</h1></div><button id="clear" class="text-button">Clear view</button></div>
-      <div id="feed" aria-live="polite"><div class="empty" id="welcome"><span class="empty-symbol">✳</span><h3>Your first comparison starts here.</h3><p>Select a model and checkpoint, describe the image, then compare the base with your LoRA.</p><div class="facts"><span>Same prompt</span><span>Same seed</span><span>One GPU request at a time</span></div></div></div>
+      <div class="main-head"><div><span class="eyebrow" id="type-label">IMAGE WORKSPACE</span><h1>Try a prompt.<br>Explore your local models.</h1></div><button id="clear" class="text-button">Clear view</button></div>
+      <div id="feed" aria-live="polite"><div class="empty" id="welcome"><span class="empty-symbol">✳</span><h3>Your first image starts here.</h3><p>Select a model, describe the image, and generate. Enable LoRA when available to compare outputs.</p><div class="facts"><span>Same prompt</span><span>Same seed</span><span>One GPU request at a time</span></div></div></div>
       <section class="composer">
         <div class="composer-top"><label for="prompt">Describe your image</label><button id="example" class="text-button">Use example prompt</button></div>
         <textarea id="prompt" rows="4" maxlength="4000" placeholder="Describe the subject, outfit, scene, and style…"></textarea>
@@ -31,7 +31,7 @@
       </section>
     </main>
   </div>
-  <dialog id="history"><div class="dialog-head"><h2>Saved tests</h2><button id="close-history" class="icon-button" aria-label="Close history">×</button></div><div id="history-list"></div></dialog>
+  <dialog id="history"><div class="dialog-head"><h2>Saved tests</h2><button id="close-history" class="icon-button" aria-label="Close history">×</button></div><div id="history-list"></div><div class="history-actions"><p id="history-status" role="status"></p><button id="delete-history" class="secondary danger">Delete all saved tests</button></div></dialog>
   <script type="module" src="/app.js"></script>
 </body>
 </html>
