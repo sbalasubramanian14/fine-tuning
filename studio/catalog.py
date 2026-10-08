@@ -39,9 +39,12 @@ def image_models():
             step = f'{"Final · " if "step" not in adapter.stem else ""}{count} steps'
             adapters.append({'id': adapter.relative_to(ROOT).as_posix(), 'label': f'{step} · {run}'})
         label = {'Lykon/dreamshaper-8': 'DreamShaper 8', 'hakurei/waifu-diffusion': 'Waifu Diffusion 1.3'}.get(profile['model']['id'], profile['model']['id'])
-        models.append({'id': profile['id'], 'label': f'{label} · {character.get("name", "image")}',
+        ready = (model_dir / 'model_index.json').is_file() and all(
+            any((model_dir / component).glob('*.safetensors')) or any((model_dir / component).glob('*.bin'))
+            for component in ('unet', 'vae', 'text_encoder', 'safety_checker'))
+        models.append({'id': profile['id'], 'label': profile.get('label', f'{label} · {character.get("name", "image")}'),
                        'type': 'image', 'backend': 'image_sd1', 'profile': path.relative_to(ROOT).as_posix(),
-                       'available': (model_dir / 'model_index.json').is_file(), 'adapters': adapters,
+                       'available': ready, 'adapters': adapters,
                        'default_prompt': profile.get('evaluation', {}).get('solo_prompt') or f'{character["trigger"]}, solo, {character["identity"]}, portrait, anime illustration',
                        'fields': [
                            {'id': 'negative_prompt', 'label': 'Negative prompt', 'type': 'textarea', 'default': character['negative_prompt']},

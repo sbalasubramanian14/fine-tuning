@@ -5,6 +5,7 @@ Separate model profiles and artifacts, with the original working pipeline preser
 | Folder | Status | Dataset and backend requirements |
 | --- | --- | --- |
 | `image/dreamshaper8/` | Runnable SD1.x LoRA experiment | Captioned images, held-out images, pinned Diffusers SD1.x base, sd-scripts |
+| `image/stable-diffusion15/` | Original SD1.5 base profile | Separate pinned FP16 weights; base generation first, optional future Sora training |
 | `image/waifu-diffusion-sora/` | Reference to completed experiment | Original files remain in `models/`, `data/`, `outputs/`, and `docs/` |
 | `text/` | Extension documentation | Tokenized text or instruction/response pairs, text-specific trainer and evaluation |
 | `video/` | Extension documentation | Clips/frame sequences and captions, temporal model trainer and evaluation |

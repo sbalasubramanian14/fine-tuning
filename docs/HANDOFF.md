@@ -1,5 +1,20 @@
 # Sora training handoff
 
+## Stable Diffusion 1.5 base added 2026-10-08
+
+Profile: `experiments/image/stable-diffusion15/profile.json`, pinned mirror revision
+`451f4fe16113bff5a5d2269ed5ad43b0592e9a14`. The four FP16 components are downloaded
+under its own ignored models folder and verified against source SHA-256 hashes.
+Studio now offers **Stable Diffusion 1.5 · Base**. It has no trained LoRA; the
+existing DreamShaper and Waifu adapters remain attached to their own profiles.
+A real GPU Studio job passed at 512×512, 28 steps, guidance 7, seed 42, with filter
+enabled; its unfiltered, nonblank output took 8.75 seconds excluding model loading.
+The sample and prompt stay in ignored browser job storage. All 221 original file
+hashes matched after download. This was an inference smoke check, not training.
+The first download stalled inside the sandbox; the approved retry completed.
+Six request validation and two local-storage exclusion tests passed. Model catalog
+availability now requires all four component weight files instead of just an index.
+
 ## Local Model Studio added 2026-10-08
 
 Launch `studio/start.ps1`; browser URL `http://127.0.0.1:7860`. The local server

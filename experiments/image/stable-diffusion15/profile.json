@@ -1,6 +1,7 @@
 {
   "schema_version": 1,
   "id": "stable-diffusion15-base",
+  "label": "Stable Diffusion 1.5 · Base",
   "type": "image",
   "backend": "sd1_lora",
   "model": {

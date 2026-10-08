@@ -2,8 +2,9 @@
 
 ## Test interactively
 
-Run `.\studio\start.ps1` and open **http://127.0.0.1:7860**. Select DreamShaper 8
-or the preserved Waifu model, toggle **Use LoRA adapter**, or click
+Run `.\studio\start.ps1` and open **http://127.0.0.1:7860**. Select DreamShaper 8,
+the preserved Waifu model, or Stable Diffusion 1.5 (base weights downloaded separately).
+Toggle **Use LoRA adapter** where available, or click
 **Compare base + LoRA** for a matched pair. Saved tests include downloadable PNGs and settings.
 See [Local Model Studio](studio/README.md) for controls, model/backend extensions
 and existing app alternatives (ComfyUI, LM Studio and Open WebUI).

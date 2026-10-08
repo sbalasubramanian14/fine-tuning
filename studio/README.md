@@ -15,7 +15,8 @@ The server binds to loopback and is intended for use on this computer.
 
 ## Test the models
 
-1. Select **DreamShaper 8** or **Waifu Diffusion 1.3**.
+1. Select **DreamShaper 8**, **Waifu Diffusion 1.3** or **Stable Diffusion 1.5**
+   (after downloading its base weights). SD1.5 initially has no trained adapter.
 2. Uncheck **Use LoRA adapter** for the original base model. Check it and select
    a checkpoint for the trained character. Start with Final, strength **0.8**.
 3. Enter an image prompt and click **Generate image**. **Compare base + LoRA**
